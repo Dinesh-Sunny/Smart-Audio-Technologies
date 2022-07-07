@@ -1,0 +1,27 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        Inter: ["Inter", "sans-serif"],
+      },
+    },
+  },
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+      smartaudiotheme: {
+        primary: "#18191F",
+        secondary: "#f6d860",
+        accent: "#37cdbe",
+        neutral: "#3d4451",
+      },
+    },
+    ],
+  },
+}
