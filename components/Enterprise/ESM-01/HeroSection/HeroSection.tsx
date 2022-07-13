@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -33,6 +34,7 @@ const HeroSection = () => {
                   <button className="btn btn-lg btn-primary">BUY NOW</button>
                 </div> */}
                 <div className="w-full md:w-auto py-1 md:py-0">
+                  <Link href="#contact">
                   <button className="btn btn-outline btn-primary btn-lg gap-2">
                     CONTACT SALES
                     <svg
@@ -48,6 +50,7 @@ const HeroSection = () => {
                       />
                     </svg>
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>

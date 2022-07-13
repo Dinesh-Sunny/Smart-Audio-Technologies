@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CallCenter = () => {
@@ -18,8 +19,9 @@ const CallCenter = () => {
                 Get yourself the world’s best noise elimination headset so you
                 can hear and be heard clearly.
               </p>
-
+              <Link href="#contact">
               <button className="btn btn-primary ">SPEAK TO US</button>
+              </Link>
             </div>
           </div>
 

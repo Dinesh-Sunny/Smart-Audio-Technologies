@@ -1,4 +1,5 @@
 import { PhoneIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 import React from "react";
 
 const ESM01Overview = () => {
@@ -38,7 +39,7 @@ const ESM01Overview = () => {
                   className="mr-2"
                 />
                 <p className="font-medium text-xl">
-                Automatic notes taking resulting in time saving.
+                  Automatic notes taking resulting in time saving.
                 </p>
               </div>
               <div className="mb-8 flex">
@@ -61,8 +62,9 @@ const ESM01Overview = () => {
                   soundproofing on walls and cieling.
                 </p>
               </div>
-
-              <button className="btn btn-primary ">GET YOURS NOW</button>
+              <Link href="#contact">
+                <button className="btn btn-primary ">GET YOURS NOW</button>
+              </Link>
             </div>
           </div>
         </div>

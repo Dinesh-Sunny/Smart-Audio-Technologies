@@ -44,7 +44,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <a className="text-primary font-medium" href="#">
+              <a className="text-primary font-medium" href="#contact">
                 Contact
               </a>
             </li>

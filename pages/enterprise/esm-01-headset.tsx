@@ -9,6 +9,7 @@ import ESM01Overview from '../../components/Enterprise/ESM-01/ESM-01-Overview/ES
 import Testimonials from '../../components/Enterprise/ESM-01/Testimonials/Testimonials';
 import ESM01Features from '../../components/Enterprise/ESM-01/ESM-01-Features/ESM01Features';
 import Footer from '../../components/Footer/Footer';
+import Contact from '../../components/Contact/Contact';
 
 const Esm01 = () => {
   return (
@@ -26,6 +27,7 @@ const Esm01 = () => {
       <ESM01Overview />
       <Testimonials />
       <ESM01Features />
+      <Contact />
       <Footer />
       </div>
   )
