@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/4 px-4">
+          {/* <div className="w-full md:w-1/4 px-4">
             <div className="lg:pr-10 lg:ml-auto lg:max-w-max">
                 <p className="mb-2">Get the App</p>
               <a className="block mb-4" href="#">
@@ -77,7 +77,7 @@ const Footer = () => {
                 <img src="/assets/images/google-play-badge.svg" alt="" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="border-b border-coolGray-100" />
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/3">
             <div className="flex flex-wrap md:justify-end -mx-5">
-              <div className="px-5">
+              {/* <div className="px-5">
                 <a
                   className="inline-block text-coolGray-300 hover:text-coolGray-400"
                   href="#"
@@ -111,8 +111,8 @@ const Footer = () => {
                     />
                   </svg>
                 </a>
-              </div>
-              <div className="px-5">
+              </div> */}
+              {/* <div className="px-5">
                 <a
                   className="inline-block text-coolGray-300 hover:text-coolGray-400"
                   href="#"
@@ -132,11 +132,11 @@ const Footer = () => {
                     />
                   </svg>
                 </a>
-              </div>
+              </div> */}
               <div className="px-5">
                 <a
                   className="inline-block text-coolGray-300 hover:text-coolGray-400"
-                  href="#"
+                  href="https://www.linkedin.com/company/smart-audio-technologies/" target="_blank"
                 >
                   <svg
                     width={18}

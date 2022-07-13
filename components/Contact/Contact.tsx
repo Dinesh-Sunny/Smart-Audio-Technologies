@@ -8,7 +8,7 @@ import {
 const Contact = () => {
   return (
     <>
-      <section
+      <section id="contact"
         className="relative py-36 overflow-hidden text-primary"
         style={{ backgroundColor: "#EEEFF4" }}
       >
@@ -36,10 +36,10 @@ const Contact = () => {
                     </h3>
                   </div>
                   <div className="mb-8 flex">
-                    <PhoneIcon className="h-6 w-6 mr-2" />
+                    {/* <PhoneIcon className="h-6 w-6 mr-2" />
                     <h3 className="font-heading font-medium text-xl">
                       +44 7517 897 999
-                    </h3>
+                    </h3> */}
                   </div>
                   <div
                     style={{

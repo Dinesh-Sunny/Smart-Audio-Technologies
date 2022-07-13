@@ -35,8 +35,9 @@ const LogoCloud = () => {
       <div className="w-1/2 md:w-1/3 lg:w-1/6 mb-8 md:mb-0">
         <img
           className="mx-auto"
-          src="assets/images/smart-audio-technologies-scan-partner.svg"
+          src="/assets/images/smart-audio-technologies-scan-partner.jpeg"
           alt="Smart Audio Technologies Scan Partner"
+          width={50}
         />
       </div>
       <div className="w-1/2 md:w-1/3 lg:w-1/6">

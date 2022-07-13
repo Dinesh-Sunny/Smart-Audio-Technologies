@@ -16,19 +16,24 @@ const InAction = () => {
             </p>
             <div className="flex">
               <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-              <ResponsivePlayer link="https://vimeo.com/413599791" />
-                <h3 className="mt-8 mb-2 text-xl font-extrabold">Acoustic cancelling</h3>
-                <p>SmartMute® Technology Demo for Enterprise Headset.</p>
+                <ResponsivePlayer link="https://vimeo.com/664562358" />
+
+                <p className="mt-8">
+                  Visitor testing our flagship Smart Audio ESM-01 Enterprise
+                  headset at CES 2022
+                </p>
               </div>
               <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-              <ResponsivePlayer link="https://vimeo.com/413599791"/>
-                <h3 className="mt-8 mb-2 text-xl font-extrabold">Inside an F1 Race</h3>
-                <p>SmartMute® Technology Demo for Helmets in a live environment.</p>
+                <ResponsivePlayer link="https://vimeo.com/663832142" />
+                <p className="mt-8">
+                  Soft launch of our flagship Enterprise headset Smart Audio
+                  ESM-01 at CES 2022
+                </p>
               </div>
             </div>
           </div>
           <div className="w-full md:w-1/2 px-4">
-            <div className="relative mx-auto md:mr-0 max-w-max">              
+            <div className="relative mx-auto md:mr-0 max-w-max">
               <img src="/assets/images/smart-mic.svg" alt="Smart Audio Mic" />
             </div>
           </div>

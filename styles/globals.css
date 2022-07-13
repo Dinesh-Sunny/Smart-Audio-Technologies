@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    html {
-      font-family: Inter, sans-serif;
-    }
+  html {
+    font-family: Inter, sans-serif;
   }
+}
 
 .btn {
-    text-transform: capitalize;
-    color: #fff;
+  text-transform: capitalize;
+  color: #fff;
 }
 
 .just-launched-image {
   width: 20px;
-  height:10px;
+  height: 10px;
 }
 
 .player-wrapper {
   position: relative;
-  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
 }
 
 .react-player {
@@ -32,7 +32,7 @@
 }
 
 .background1 {
-  background-color: '#EEEFF4';
+  background-color: "#EEEFF4";
 }
 
 .rightWaveFormBg {
@@ -43,16 +43,20 @@
   background-image: url("/assets/images/ESM-01/left-pattern.svg");
 }
 
+.mainRightWaveFormBg {
+  background-image: url("/assets/images/main-right-waveform.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
 
 .backgroundPattern {
   background-image: url("/assets/images/background-pattern.svg");
 }
 
 /*Google map*/
-div.google_map:hover{
--webkit-filter: grayscale(20%) !important; 
-filter: grayscale(20%) !important;
-transition-delay:300ms !important;
-transition-duration:400ms !important;
+div.google_map:hover {
+  -webkit-filter: grayscale(20%) !important;
+  filter: grayscale(20%) !important;
+  transition-delay: 300ms !important;
+  transition-duration: 400ms !important;
 }
-

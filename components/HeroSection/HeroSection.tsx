@@ -1,14 +1,9 @@
 import React from "react";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section
-      className="relative overflow-hidden conatiner"
-      style={{
-        backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
-        backgroundPosition: "center",
-      }}
-    >
+    <section className="relative overflow-hidden conatiner mainRightWaveFormBg">
       <div>
         <div className="container mx-auto mt-4">
           <div className="flex flex-wrap xl:items-center ml-8">
@@ -17,15 +12,18 @@ const HeroSection = () => {
                 Clear Voice Without The Noise®️
               </h1>
               <p className="mb-8 text-lg md:text-xl text-primary font-medium">
-                Powered by SmartMute® our powerful A.I based Self Adaptive Noise
-                Elimination technology.
+                Powered by SmartMute® our powerful A.I. based Self Adaptive
+                Noise Elimination technology.
               </p>
-              <button className="btn btn-primary ">LEARN MORE</button>
+              <Link href="/enterprise/esm-01-headset">
+                <button className="btn btn-primary ">LEARN MORE</button>
+              </Link>
             </div>
             <div className="w-full md:w-2/3">
-            
-              <img src="/assets/images/smart-audio-headset.png" className="mx-auto" />
-              
+              <img
+                src="/assets/images/smart-audio-headset.svg"
+                className="mx-auto z-10"
+              />
             </div>
           </div>
         </div>

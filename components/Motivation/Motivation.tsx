@@ -2,7 +2,7 @@ import React from "react";
 
 const Motivation = () => {
   return (
-    <div className="container mx-auto text-primary py-24">
+    <div className="container mx-auto text-primary py-24" id="our-technology">
       <h2 className="text-5xl font-extrabold mb-24 text-center">
         We are here to change <br /> the Game!
       </h2>

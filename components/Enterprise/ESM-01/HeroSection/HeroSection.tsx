@@ -19,16 +19,19 @@ const HeroSection = () => {
                 Just Launched 🚀
               </button>
 
-              <h1 className="mb-12 text-3xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
-                ESM-01 <br /> Wireless <br /> Headphones
+              <h1 className="mb-4 text-3xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
+                ESM-01 <br /> Enterprise <br /> Headphones
               </h1>
-              <p className="mb-12 font-light md:text-4xl">
+              <p className="mt-2 font-light md:text-2xl">
+               for wired & wireless use
+              </p>
+              <p className="my-12 font-light md:text-4xl">
                 Clear Voice Without <br /> The Noise®️
               </p>
               <div className="flex flex-wrap">
-                <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
+                {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                   <button className="btn btn-lg btn-primary">BUY NOW</button>
-                </div>
+                </div> */}
                 <div className="w-full md:w-auto py-1 md:py-0">
                   <button className="btn btn-outline btn-primary btn-lg gap-2">
                     CONTACT SALES

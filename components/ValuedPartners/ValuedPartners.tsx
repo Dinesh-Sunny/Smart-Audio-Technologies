@@ -2,7 +2,7 @@ import React from "react";
 
 const ValuedPartners = () => {
   return (
-    <section
+    <section id="partners"
       className="py-24 text-primary rightWaveFormBg bg-no-repeat bg-right"
       style={{ backgroundColor: "#EEEFF4" }}
     >
@@ -33,7 +33,7 @@ const ValuedPartners = () => {
                 Amazon
               </h3>
               <span className="inline-block mb-24 text-lg font-medium">
-                AWS
+                USA
               </span>
               <img
                 className="absolute bottom-0 left-0 py-8 px-10"

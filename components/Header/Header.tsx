@@ -1,68 +1,55 @@
-import React from 'react';
+import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <section className="bg-white px-32">
       <nav className="flex justify-between p-6 px-4">
-        <a href="#">
-          <img
-            className="h-8"
-            src="/assets/images/smart-audio-technologies-logo.svg"
-            alt="Smart Audio Technologies Logo"
-          />
-        </a>
+        <Link href="/">
+          <a>
+            <img
+              className="h-8"
+              src="/assets/images/smart-audio-technologies-logo.svg"
+              alt="Smart Audio Technologies Logo"
+            />
+          </a>
+        </Link>
         <div className="hidden xl:flex items-center">
           <ul className="flex mr-12">
             <li className="mr-8">
-              <a
-                className="text-primary font-medium"
-                href="#"
-              >
+              <a className="text-primary font-medium" href="#our-technology">
                 Our Technology
               </a>
             </li>
             <li className="mr-8">
-              <a
-                className="text-primary font-medium"
-                href="#"
-              >
+              <Link href="#solutions" >
+              <a className="text-primary font-medium" href="#">
                 Solutions
               </a>
+              </Link>
             </li>
             <li className="mr-8">
-              <a
-                className="text-primary font-medium"
-                href="#"
-              >
+              <a className="text-primary font-medium" href="#partners">
                 Partners
               </a>
             </li>
             <li className="mr-8">
-              <a
-                className="text-primary font-medium"
-                href="#"
-              >
+              <a className="text-primary font-medium" href="#team">
                 Our Team
               </a>
             </li>
             <li className="mr-8">
-              <a
-                className="text-primary font-medium"
-                href="#"
-              >
-                Products
-              </a>
+              <Link href="/enterprise/esm-01-headset">
+              <a className="text-primary font-medium">Products</a>
+              </Link>
             </li>
             <li>
-              <a
-                className="text-primary font-medium"
-                href="#"
-              >
+              <a className="text-primary font-medium" href="#">
                 Contact
               </a>
             </li>
           </ul>
-          <button className="btn btn-primary    btn-sm">Sign In</button>
+          {/* <button className="btn btn-primary    btn-sm">Sign In</button> */}
         </div>
         <button className="navbar-burger self-center xl:hidden">
           <svg
@@ -136,7 +123,7 @@ const Header = () => {
               </div>
               <a
                 className="inline-block py-2 px-4 w-full text-sm leading-5 text-green-50 bg-coolGray-500 hover:bg-coolGray-600 font-medium text-center focus:ring-2 focus:ring-coolGray-500 focus:ring-opacity-50 rounded-md"
-                href="#"
+                href="#contact"
               >
                 Contact Us
               </a>
