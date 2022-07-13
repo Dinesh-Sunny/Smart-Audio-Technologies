@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Features = () => {
@@ -20,7 +21,7 @@ Tailor-made for you!
       <div className="w-full md:w-1/2 lg:w-1/3 px-4">
         <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
           <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center">
-            <img src="/assets/images/headset.svg" />
+            <Image width="33" height="33" src="/assets/images/headset.svg" />
           </div>
           <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
           Headsets
@@ -33,7 +34,7 @@ Tailor-made for you!
       <div className="w-full md:w-1/2 lg:w-1/3 px-4">
         <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
           <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center">
-          <img src="/assets/images/f1-racecar.svg" />
+          <Image  width="81" height="32"  src="/assets/images/f1-racecar.svg" />
           </div>
           <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
           Aviation & Automotive
@@ -46,7 +47,7 @@ Tailor-made for you!
       <div className="w-full md:w-1/2 lg:w-1/3 px-4">
         <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
           <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center ">
-          <img src="/assets/images/helmet.svg" />
+          <Image width="32" height="33" src="/assets/images/helmet.svg" />
           </div>
           <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
           Helmets
@@ -59,7 +60,7 @@ Tailor-made for you!
       <div className="w-full md:w-1/2 lg:w-1/3 px-4">
         <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
           <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center">
-          <img src="/assets/images/pilot.svg" />
+          <Image width="33" height="33" src="/assets/images/pilot.svg" />
           </div>
           <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
           Defence & Emergency
@@ -72,7 +73,7 @@ Tailor-made for you!
       <div className="w-full md:w-1/2 lg:w-1/3 px-4">
         <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
           <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center ">
-          <img src="/assets/images/laptop.svg" />
+          <Image width="53" height="32" src="/assets/images/laptop.svg" />
           </div>
           <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
           Laptops & Tablets
@@ -85,7 +86,7 @@ Tailor-made for you!
       <div className="w-full md:w-1/2 lg:w-1/3 px-4">
         <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
           <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center ">
-          <img src="/assets/images/smart-devices.svg" />
+          <Image width="33" height="32" src="/assets/images/smart-devices.svg" />
           </div>
           <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
           Smart Devices

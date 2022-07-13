@@ -1,4 +1,5 @@
 import { PhoneIcon } from "@heroicons/react/solid";
+import Image from "next/image";
 import React from "react";
 
 const ESM01Overview = () => {
@@ -11,7 +12,8 @@ const ESM01Overview = () => {
         <div className="flex flex-wrap -m-6">
           <div className="w-full lg:w-1/2">
             <div className="flex">
-              <img
+              <Image
+                width="942" height="838"
                 className="relative top-3 transform hover:scale-105 transition ease-in-out duration-500"
                 src="/assets/images/ESM-01/headset-overview.svg"
                 alt="ESM 01 Overview| Smart Audio Headset"
@@ -24,7 +26,9 @@ const ESM01Overview = () => {
                 It’s time to enjoy
               </h2>
               <div className="mb-8 flex">
-                <img
+                <Image
+                  width="56" 
+                  height="56"
                   src="/assets/images/ESM-01/bullet-point-icon.svg"
                   className="mr-2"
                 />
@@ -33,7 +37,9 @@ const ESM01Overview = () => {
                 </p>
               </div>
               <div className="mb-8 flex">
-                <img
+                <Image
+                  width="56" 
+                  height="56"
                   src="/assets/images/ESM-01/bullet-point-icon.svg"
                   className="mr-2"
                 />
@@ -42,7 +48,9 @@ const ESM01Overview = () => {
                 </p>
               </div>
               <div className="mb-8 flex">
-                <img
+                <Image
+                  width="56" 
+                  height="56"
                   src="/assets/images/ESM-01/bullet-point-icon.svg"
                   className="mr-2"
                 />
@@ -52,7 +60,9 @@ const ESM01Overview = () => {
                 </p>
               </div>
               <div className="mb-8 flex">
-                <img
+                <Image
+                  width="56" 
+                  height="56"
                   src="/assets/images/ESM-01/bullet-point-icon.svg"
                   className="mr-2"
                 />

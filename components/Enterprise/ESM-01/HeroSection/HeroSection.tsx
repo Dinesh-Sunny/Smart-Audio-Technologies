@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
             <div className="w-full md:w-1/2 px-4">
               <div className="relative mx-auto md:mr-0 max-w-max">
                 <div className="relative overflow-hidden rounded-7xl">
-                  <img src="/assets/images/ESM-01/headset-image.svg" />
+                  <Image width="682" height="700" src="/assets/images/ESM-01/headset-image.svg" />
                 </div>
               </div>
             </div>

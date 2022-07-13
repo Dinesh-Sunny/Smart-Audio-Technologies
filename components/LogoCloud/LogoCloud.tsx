@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const LogoCloud = () => {
@@ -12,44 +13,56 @@ const LogoCloud = () => {
     </p> */}
     <div className="flex flex-wrap items-center my-8">
       <div className="w-1/2 md:w-1/3 lg:w-1/6 mb-8 lg:mb-0">
-        <img
+        <Image 
+          width="46" 
+          height="34"
           className="mx-auto"
-          src="assets/images/smart-audio-technologies-nvidia.svg"
+          src="/assets/images/smart-audio-technologies-nvidia.svg"
           alt="Smart Audio Technologies NVidia Partner"
         />
       </div>
       <div className="w-1/2 md:w-1/3 lg:w-1/6 mb-8 lg:mb-0">
-        <img
+        <Image
+         width="123" 
+         height="24"
           className="mx-auto"
-          src="assets/images/smart-audio-technologies-qualcomm-partner.svg"
+          src="/assets/images/smart-audio-technologies-qualcomm-partner.svg"
           alt="Smart Audio Technologies Qualcomm Partner"
         />
       </div>
       <div className="w-1/2 md:w-1/3 lg:w-1/6 mb-8 lg:mb-0">
-        <img
+        <Image
+         width="49"
+         height="30"
           className="mx-auto"
-          src="assets/images/smart-audio-technologies-aws-partner.svg"
+          src="/assets/images/smart-audio-technologies-aws-partner.svg"
           alt="Smart Audio Technologies AWS Partner"
         />
       </div>
       <div className="w-1/2 md:w-1/3 lg:w-1/6 mb-8 md:mb-0">
-        <img
+        <Image
+         width="58" 
+         height="36"
           className="mx-auto"
-          src="assets/images/smart-audio-technologies-scan-partner.svg"
+          src="/assets/images/smart-audio-technologies-scan-partner.svg"
           alt="Smart Audio Technologies Scan Partner"
         />
       </div>
       <div className="w-1/2 md:w-1/3 lg:w-1/6">
-        <img
+        <Image
+          width="71"
+          height="35"
           className="mx-auto"
-          src="assets/images/smart-audio-technologies-partner.svg"
+          src="/assets/images/smart-audio-technologies-partner.svg"
           alt="Department of Trade as Partner"
         />
       </div>
       <div className="w-1/2 md:w-1/3 lg:w-1/6">
-        <img
+        <Image
+          width="65" 
+          height="28"
           className="mx-auto"
-          src="assets/images/smart-audio-technologies-abstract-future.svg"
+          src="/assets/images/smart-audio-technologies-abstract-future.svg"
           alt="Smart Audio Technologies Abstract Future Partner"
         />
       </div>

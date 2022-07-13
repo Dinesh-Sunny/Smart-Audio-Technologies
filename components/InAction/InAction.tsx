@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import ResponsivePlayer from "../ResponsivePlayer/ResponsivePlayer";
 
@@ -29,7 +30,7 @@ const InAction = () => {
           </div>
           <div className="w-full md:w-1/2 px-4">
             <div className="relative mx-auto md:mr-0 max-w-max">              
-              <img src="/assets/images/smart-mic.svg" alt="Smart Audio Mic" />
+              <Image width="823" height="768"   src="/assets/images/smart-mic.svg" alt="Smart Audio Mic" />
             </div>
           </div>
         </div>

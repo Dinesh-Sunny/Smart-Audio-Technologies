@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Motivation = () => {
@@ -8,7 +9,7 @@ const Motivation = () => {
       </h2>
       <div className="flex flex-wrap -mx-4">
         <div className="lg:mb-0 w-full lg:w-1/2 px-4">
-          <img className="mx-auto"
+          <img height='446' width='683' className="mx-auto"
             src="/assets/images/smart-audio-headphones-game-changing.png"
             alt="Smart Audio Game Headset game changing technology"
           />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Features = () => {
@@ -12,7 +13,8 @@ const Features = () => {
         <div className="flex flex-wrap -mx-4 gap-y-24">
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div className="h-full">
-              <img
+              <Image
+                 width="32" height="32"
                 src="/assets/images/ESM-01/suitability.svg"
                 className="mb-8"
               />
@@ -23,7 +25,7 @@ const Features = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div className="h-full">
-              <img src="/assets/images/ESM-01/accuracy.svg" className="mb-8" />
+              <Image width="32" height="32" src="/assets/images/ESM-01/accuracy.svg" className="mb-8" />
               <h3 className="mb-4 text-xl md:text-2xl leading-tight">
                 Automatic transcription with high accuracy
               </h3>
@@ -31,7 +33,9 @@ const Features = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div className="h-full">
-              <img
+              <Image
+                width="32"
+                height="32"
                 src="/assets/images/ESM-01/noise-estimation.svg"
                 className="mb-8"
               />
@@ -42,7 +46,9 @@ const Features = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div className="h-full">
-              <img
+              <Image
+               width="32"
+               height="32"
                 src="/assets/images/headset.svg"
                 className="mb-8"
               />
@@ -53,7 +59,9 @@ const Features = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div className="h-full">
-              <img
+              <Image
+                width="40" 
+                height="32"
                 src="/assets/images/ESM-01/battery.svg"
                 className="mb-8"
               />
@@ -64,7 +72,9 @@ const Features = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div className="h-full">
-              <img
+              <Image
+                width="32"
+                height="32"
                 src="/assets/images/ESM-01/boom-mic.svg"
                 className="mb-8"
               />
