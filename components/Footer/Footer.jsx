@@ -136,7 +136,7 @@ const Footer = () => {
               <div className="px-5">
                 <a
                   className="inline-block text-coolGray-300 hover:text-coolGray-400"
-                  href="https://www.linkedin.com/company/smart-audio-technologies/" target="_blank"
+                  href="https://www.linkedin.com/company/smart-audio-technologies/" target="_blank" rel="noreferrer"
                 >
                   <svg
                     width={18}
