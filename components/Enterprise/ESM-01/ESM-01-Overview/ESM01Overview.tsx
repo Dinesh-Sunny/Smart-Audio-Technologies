@@ -38,7 +38,7 @@ const ESM01Overview = () => {
                   className="mr-2"
                 />
                 <p className="font-medium text-xl">
-                  Clear crisp conversations resulting in shorter talk duration.
+                Automatic notes taking resulting in time saving.
                 </p>
               </div>
               <div className="mb-8 flex">

@@ -7,6 +7,8 @@ import WorkFromHome from '../../components/Enterprise/ESM-01/WorkFromHome/WorkFr
 import CallCenter from '../../components/Enterprise/ESM-01/CallCenter/CallCenter';
 import ESM01Overview from '../../components/Enterprise/ESM-01/ESM-01-Overview/ESM01Overview';
 import Testimonials from '../../components/Enterprise/ESM-01/Testimonials/Testimonials';
+import ESM01Features from '../../components/Enterprise/ESM-01/ESM-01-Features/ESM01Features';
+import Footer from '../../components/Footer/Footer';
 
 const Esm01 = () => {
   return (
@@ -23,6 +25,8 @@ const Esm01 = () => {
       <CallCenter />
       <ESM01Overview />
       <Testimonials />
+      <ESM01Features />
+      <Footer />
       </div>
   )
 }
