@@ -30,3 +30,29 @@
   top: 0;
   left: 0;
 }
+
+.background1 {
+  background-color: '#EEEFF4';
+}
+
+.rightWaveFormBg {
+  background-image: url("/assets/images/right-waveform.svg");
+}
+
+.leftWaveFormBg {
+  background-image: url("/assets/images/ESM-01/left-pattern.svg");
+}
+
+
+.backgroundPattern {
+  background-image: url("/assets/images/background-pattern.svg");
+}
+
+/*Google map*/
+div.google_map:hover{
+-webkit-filter: grayscale(20%) !important; 
+filter: grayscale(20%) !important;
+transition-delay:300ms !important;
+transition-duration:400ms !important;
+}
+
