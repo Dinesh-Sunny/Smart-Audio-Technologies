@@ -25,11 +25,11 @@ const Testimonials = () => {
                   }}
                 >
                   <p className="mb-8 leading-loose">
-                    "Wow, how is this even possible?"{" "}
+                  &quot;Wow, how is this even possible?&quot;
                   </p>
 
                   <h4 className="mb-1 text-2xl font-bold font-heading">
-                    Visitors{" "}
+                    Visitors
                   </h4>
                   <p>CES & MWC 2022</p>
                 </div>
@@ -44,7 +44,7 @@ const Testimonials = () => {
                   }}
                 >
                   <p className="mb-8 leading-loose">
-                    "Top Ten Startups from CES"
+                  &quot;Top Ten Startups from CES&quot;
                   </p>
 
                   <h4 className="mb-1 text-2xl font-bold font-heading">

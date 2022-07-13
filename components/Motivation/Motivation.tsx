@@ -29,7 +29,7 @@ const Motivation = () => {
           <div className="max-w-xs mb-8">
             <h3 className="mb-2 text-xl font-extrabold ">SmartMute®</h3>
             <p className="leading-loose font-light">
-            The "Brains" at Smart Audio have replicated this complex functionality within each of us and created SmartMute® a Self Adaptive A.I. based Noise Elimination Technology that is capable of accepting voice inputs from target speaker and eliminating the rest.
+            The &quot;Brains&quot; at Smart Audio have replicated this complex functionality within each of us and created SmartMute® a Self Adaptive A.I. based Noise Elimination Technology that is capable of accepting voice inputs from target speaker and eliminating the rest.
             </p>
           </div>
           
