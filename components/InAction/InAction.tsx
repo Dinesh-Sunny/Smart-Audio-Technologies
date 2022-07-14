@@ -33,15 +33,9 @@ const InAction = () => {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
           <div className=" sm:hidden w-full md:w-1/2 px-4">
             <div className=" relative mx-auto md:mr-0 max-w-max">
               <img src="/assets/images/smart-mic.svg" alt="Smart Audio Mic" />
-=======
-          <div className="w-full md:w-1/2 px-4">
-            <div className="relative mx-auto md:mr-0 max-w-max">              
-              <Image width="823" height="768"   src="/assets/images/smart-mic.svg" alt="Smart Audio Mic" />
->>>>>>> 9b3125940695923f27c017724846ff29886c8975
             </div>
           </div>
         </div>

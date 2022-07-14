@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import Link from "next/link";
-=======
-import Image from "next/image";
->>>>>>> 9b3125940695923f27c017724846ff29886c8975
 import React from "react";
 
 const CallCenter = () => {
