@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Link from "next/link";
+=======
+import Image from "next/image";
+>>>>>>> 9b3125940695923f27c017724846ff29886c8975
 import React from "react";
 
 const CallCenter = () => {
@@ -30,6 +34,8 @@ const CallCenter = () => {
           <div className="w-full lg:w-1/2 p-8 lg:p-16 ">
             <div className="flex rounded-2xl justify-center">
               <img
+                width="378"
+                height="600"
                 className="relative top-3 h-148 transform hover:scale-105 transition ease-in-out duration-500 "
                 src="/assets/images/ESM-01/call-center.svg"
                 alt="Call Center | Smart Audio Headset"

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Link from "next/link";
+=======
+import Image from "next/image";
+>>>>>>> 9b3125940695923f27c017724846ff29886c8975
 import React from "react";
 
 const WorkFromHome = () => {
@@ -10,9 +14,16 @@ const WorkFromHome = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -m-6">
           <div className="w-full lg:w-1/2 p-8 lg:p-16 ">
+<<<<<<< HEAD
             <div className=" flex rounded-2xl justify-center sm:w-full ">
               <img
                 className="relative  top-3 h-148 transform hover:scale-105 transition ease-in-out duration-500 "
+=======
+            <div className="flex rounded-2xl justify-center">
+              <Image
+                width="378" height="600"
+                className="relative top-3 h-148 transform hover:scale-105 transition ease-in-out duration-500 "
+>>>>>>> 9b3125940695923f27c017724846ff29886c8975
                 src="/assets/images/ESM-01/work-from-home.svg"
                 alt="Work From Home | Smart Audio Headset"
               />

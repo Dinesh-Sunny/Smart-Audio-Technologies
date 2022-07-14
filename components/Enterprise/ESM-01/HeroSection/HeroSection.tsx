@@ -1,6 +1,10 @@
 import React from "react";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
+<<<<<<< HEAD
 import Link from "next/link";
+=======
+import Image from "next/image";
+>>>>>>> 9b3125940695923f27c017724846ff29886c8975
 
 const HeroSection = () => {
   return (
@@ -10,11 +14,16 @@ const HeroSection = () => {
           <div className="flex flex-wrap xl:items-center -mx-4">
             <div className="w-full md:w-1/2 px-4">
               <div className="relative mx-auto md:mr-0 max-w-max">
+<<<<<<< HEAD
               <button className="md:hidden btn btn-outline btn-primary mb-8  ">
                 Just Launched 🚀
               </button>
                 <div className="  relative overflow-hidden rounded-7xl">
                   <img src="/assets/images/ESM-01/headset-image.svg" />
+=======
+                <div className="relative overflow-hidden rounded-7xl">
+                  <Image width="682" height="700" src="/assets/images/ESM-01/headset-image.svg" />
+>>>>>>> 9b3125940695923f27c017724846ff29886c8975
                 </div>
                 
                   <img className="sm:w-full " src="/assets/images/ESM-01/mobile-headphone-screenshots.svg" />
