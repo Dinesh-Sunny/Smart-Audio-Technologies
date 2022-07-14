@@ -12,7 +12,7 @@ const ValuedPartners = () => {
           Valued Partners
           </h2>
         </div>
-        <div className="flex flex-wrap gap-y-24">
+        <div className="hidden  md:flex flex-wrap gap-y-24">
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div className="relative h-full py-8 px-10 bg- rounded-md bg-white">
               <h3 className="mb-2 text-2xl md:text-2xl leading-tight font-semibold">
@@ -86,23 +86,55 @@ const ValuedPartners = () => {
               />
             </div>
           </div>
+        </div>
 
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white">
+
+ {/*the below jsx for mobile phones it will be hidden in larger displays  */}
+
+
+        <div className=" md:hidden flex flex-wrap gap-y-24">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4  sm:w-full">
+            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white  sm:w-full sm:h-80">
               <h3 className="mb-2 text-2xl md:text-2xl leading-tight font-semibold">
-                Abstract Future
+                NVIDIA
               </h3>
-              <span className="inline-block mb-24 text-lg font-medium">
-                India{" "}
-              </span>
+              <span className="inline-block text-lg font-medium">USA</span>
               <img
                 className="absolute bottom-0 left-0 py-8 px-10"
-                src="assets/images/smart-audio-technologies-abstract-future.svg"
+                src="assets/images/smart-audio-technologies-nvidia.svg"
                 alt="Smart Audio Technologies NVidia Partner"
               />
             </div>
           </div>
-        </div>
+
+        
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white">
+              <h3 className="mb-2 text-2xl md:text-2xl leading-tight font-semibold">
+                Qualcomm
+              </h3>
+              <span className="inline-block mb-24 text-lg font-medium">
+                USA
+              </span>
+              <img
+                className="absolute bottom-0 left-0 py-8 px-10"
+                src="assets/images/smart-audio-technologies-qualcomm-partner.svg"
+                alt="Smart Audio Technologies NVidia Partner"
+              />
+            </div>
+          </div>
+          <img  className="mx-auto pt-10"
+            src="/assets/images/mobile-navigaion-icon.svg"
+            alt="mobile navigation"
+          />
+          </div>
+
+        
+
+
+
+
+
       </div>
     </section>
   );

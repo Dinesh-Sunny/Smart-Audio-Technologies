@@ -5,8 +5,8 @@ const Footer = () => {
     <section className="bg-primary overflow-hidden text-white">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap lg:items-center pt-12 pb-12 -mx-4">
-          <div className="w-full md:w-3/4 px-4">
-            <a className="block mb-8 max-w-max" href="#">
+          <div className="w-full md:w-3/4 px-4 sm:text-center ">
+            <a className="block mb-8 max-w-max " href="#">
               <img
                 className="h-8"
                 src="/assets/images/smart-audio-logo-white.svg"

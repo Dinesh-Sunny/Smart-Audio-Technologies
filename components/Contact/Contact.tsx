@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="flex flex-wrap -m-6">
             <div className="w-full md:w-1/2 p-6">
               <div className="md:max-w-lg mb-14">
-                <h2 className="mb-7 font-heading font-semibold text-6xl sm:text-6xl">
+                <h2 className=" sm:text-center  mb-7 font-heading font-semibold text-6xl sm:text-5xl sm:text-ce">
                   Get in touch
                 </h2>
               </div>

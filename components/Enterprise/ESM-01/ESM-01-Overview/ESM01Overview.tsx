@@ -21,7 +21,7 @@ const ESM01Overview = () => {
           </div>
           <div className="w-full lg:w-1/2 p-8 lg:p-16">
             <div className="lg:max-w-md pt-16">
-              <h2 className="mb-10 font-heading font-bold text-4xl sm:text-5xl leading-loose">
+              <h2 className=" sm:text-center sm:font-bold  mb-10 font-heading font-bold text-4xl sm:text-5xl leading-loose">
                 It’s time to enjoy
               </h2>
               <div className="mb-8 flex">
@@ -62,9 +62,11 @@ const ESM01Overview = () => {
                   soundproofing on walls and cieling.
                 </p>
               </div>
+              <div className="sm:flex sm:justify-center" >
               <Link href="#contact">
-                <button className="btn btn-primary ">GET YOURS NOW</button>
+                <button className=" sm:btn-wide  btn btn-primary ">GET YOURS NOW</button>
               </Link>
+              </div>
             </div>
           </div>
         </div>
