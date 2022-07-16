@@ -6,7 +6,7 @@ const Features = () => {
       <div className="container px-8 mx-auto">
         <div className="md:max-w-4xl mb-24">
           <h2 className="mb-4 text-5xl md:text-4xl leading-tight font-extrabold">
-            10X your productivity
+            Amplify your productivity
           </h2>
         </div>
         <div className="flex flex-wrap -mx-4 gap-y-24">
