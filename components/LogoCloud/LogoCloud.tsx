@@ -11,56 +11,62 @@ const LogoCloud = () => {
     {/* <p className="mb-8 text-center font-medium leading-6 text-coolGray-300">
       Trusted by the top companies in this industry
     </p> */}
-    <div className="flex md:flex-wrap md:items-center  md:my-8 sm:my-4   ">
-      <div className="sm:w-full  sm: w-1/2 md:w-1/3 lg:w-1/6 md:mb-8 lg:mb-0   ">
+    <div className="hidden md:flex md:flex-wrap md:items-center  md:my-8   ">
+      <div className="   md:w-1/3 lg:w-1/6 md:mb-8 lg:mb-0   ">
         <img 
           
-          className="mx-auto sm:w-full"
+          className="mx-auto"
           src="/assets/images/smart-audio-technologies-nvidia.svg"
           alt="Smart Audio Technologies NVidia Partner"
         />
       </div>
-      <div className=" sm:w-full  md:w-1/3 lg:w-1/6 sm:mb-8 lg:mb-0 ">
+      <div className="   md:w-1/3 lg:w-1/6  lg:mb-0 ">
         <img
          
-          className="md:mx-auto sm:w-full "
+          className="md:mx-auto  "
           src="/assets/images/smart-audio-technologies-qualcomm-partner.svg"
           alt="Smart Audio Technologies Qualcomm Partner"
         />
       </div>
-      <div className=" sm:w-full  w-1/2 md:w-1/3 lg:w-1/6 sm:mb-8 lg:mb-0">
+      <div className="   w-1/2 md:w-1/3 lg:w-1/6  lg:mb-0">
         <img
         
-          className="mx-auto sm:w-full "
+          className="mx-auto  "
           src="/assets/images/smart-audio-technologies-aws-partner.svg"
           alt="Smart Audio Technologies AWS Partner"
         />
       </div>
-      <div className="sm:w-full w-1/2 md:w-1/3 lg:w-1/6 sm:mb-8 md:mb-0">
+      <div className=" w-1/2 md:w-1/3 lg:w-1/6 sm:mb-8 md:mb-0">
         <img
          
-          className="mx-auto sm:w-full"
+          className="mx-auto "
           src="/assets/images/smart-audio-technologies-scan-partner.svg"
           alt="Smart Audio Technologies Scan Partner"
         />
       </div>
-      <div className="sm:w-full  w-1/2 md:w-1/3 lg:w-1/6 ">
+      <div className="  w-1/2 md:w-1/3 lg:w-1/6 ">
         <img
           
-          className="mx-auto sm:w-full"
+          className="mx-auto "
           src="/assets/images/smart-audio-technologies-partner.svg"
           alt="Department of Trade as Partner"
         />
       </div>
-      <div className=" sm:w-full w-1/2 md:w-1/3 lg:w-1/6">
+      <div className="  w-1/2 md:w-1/3 lg:w-1/6">
         <img
          
-          className="mx-auto sm:w-full"
+          className="mx-auto "
           src="/assets/images/smart-audio-technologies-abstract-future.svg"
           alt="Smart Audio Technologies Abstract Future Partner"
         />
       </div>
     </div>
+
+  
+    <img className='md:hidden w-96 m-0 ' src="/assets/images/mobile-cloud-icons.svg" alt=""  />
+  
+
+
     <hr />
   </div>
 </section>

@@ -15,7 +15,7 @@ const InAction = () => {
               See what people are saying about our unique and effective
               technology
             </p>
-            <div className="flex flex-col">
+            <div className="md:flex  md:flex-row  ">
               <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
                 <ResponsivePlayer link="https://vimeo.com/664562358" />
 
@@ -33,7 +33,7 @@ const InAction = () => {
               </div>
             </div>
           </div>
-          <div className=" sm:hidden w-full md:w-1/2 px-4">
+          <div className="  w-full md:w-1/2 px-4">
             <div className=" relative mx-auto md:mr-0 max-w-max">
               <img src="/assets/images/smart-mic.svg" alt="Smart Audio Mic" />
             </div>

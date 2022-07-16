@@ -86,6 +86,22 @@ const ValuedPartners = () => {
               />
             </div>
           </div>
+
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white">
+              <h3 className="mb-2 text-2xl md:text-2xl leading-tight font-semibold">
+                Abstract Future
+              </h3>
+              <span className="inline-block mb-24 text-lg font-medium">
+                India{" "}
+              </span>
+              <img
+                className="absolute bottom-0 left-0 py-8 px-10"
+                src="assets/images/smart-audio-technologies-abstract-future.svg"
+                alt="Smart Audio Technologies NVidia Partner"
+              />
+            </div>
+          </div>
         </div>
 
 
@@ -93,9 +109,9 @@ const ValuedPartners = () => {
 
 
         <div className=" md:hidden flex flex-wrap gap-y-24">
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4  sm:w-full">
-            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white  sm:w-full sm:h-80">
-              <h3 className="mb-2 text-2xl md:text-2xl leading-tight font-semibold">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4  mobile:w-full">
+            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white  mobile:w-full mobile:h-80">
+              <h3 className="mb-2 text-xl md:text-2xl leading-tight font-semibold">
                 NVIDIA
               </h3>
               <span className="inline-block text-lg font-medium">USA</span>
@@ -109,8 +125,8 @@ const ValuedPartners = () => {
 
         
           <div className="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white">
-              <h3 className="mb-2 text-2xl md:text-2xl leading-tight font-semibold">
+            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white ">
+              <h3 className="mb-2 text-1xl leading-tight font-semibold">
                 Qualcomm
               </h3>
               <span className="inline-block mb-24 text-lg font-medium">

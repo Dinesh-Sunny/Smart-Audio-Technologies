@@ -9,6 +9,11 @@ module.exports = {
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
       },
+      screens:{
+          'mobile':'340px',
+          'sf':'280'
+          
+      },
     },
   },
   plugins: [require("daisyui")],
