@@ -19,14 +19,14 @@ const InAction = () => {
               <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
                 <ResponsivePlayer link="https://vimeo.com/664562358" />
 
-                <p className="sm:text-2xl mt-8">
+                <p className="sm:text-2xl md:text-base mt-8">
                   Visitor testing our flagship Smart Audio ESM-01 Enterprise
                   headset at CES 2022
                 </p>
               </div>
               <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
                 <ResponsivePlayer link="https://vimeo.com/663832142" />
-                <p className=" sm:text-2xl mt-8">
+                <p className="  sm:text-2xl md:text-base mt-8">
                   Soft launch of our flagship Enterprise headset Smart Audio
                   ESM-01 at CES 2022
                 </p>

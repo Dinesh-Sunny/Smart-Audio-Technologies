@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="flex flex-wrap -m-6">
             <div className="w-full md:w-1/2 p-6">
               <div className="md:max-w-lg mb-14">
-                <h2 className="  sm:text-center  mb-7 font-heading font-semibold text-6xl sm:text-5xl sm:text-ce">
+                <h2 className="  mobile:text-3xl sm:text-6xl     mb-7 font-heading font-bold  ">
                   Get in touch
                 </h2>
               </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div className="mb-8 flex">
                     <MailIcon className="h-6 w-6 mr-2" />
-                    <h3 className="text-tiny font-heading font-medium text-xl">
+                    <h3 className="text-tiny  font-heading font-medium mobile:text-base-300">
                       hello@smartaudiotechnologies.com
                     </h3>
                   </div>

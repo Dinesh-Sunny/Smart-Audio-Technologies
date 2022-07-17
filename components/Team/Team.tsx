@@ -5,7 +5,7 @@ const Team = () => {
     <section id="team" className="pt-20 bg-white text-primary">
       <div className="relative container px-8 mx-auto">
         <div className="mb-16">
-          <h2 className=" sm:text-4xl sm:text-center mb-4 text-3xl md:text-5xl leading-tight text-coolGray-900 font-bold tracking-tighter">
+          <h2 className=" sm:text-4xl sm:text-center mb-4 text-3xl md:text-left md:text-5xl leading-tight text-coolGray-900 font-bold tracking-tighter">
             Our Team
           </h2>
         </div>
@@ -128,7 +128,7 @@ const Team = () => {
 
         <hr />
 
-        <h2 className="sm:text-4xl sm:text-center  mb-4 py-20 text-3xl md:text-5xl leading-tight text-coolGray-900 font-bold tracking-tighter">
+        <h2 className="sm:text-4xl sm:text-center  mb-4 py-20 text-3xl md:text-5xl md:text-left leading-tight text-coolGray-900 font-bold tracking-tighter">
           Advisors
         </h2>
 

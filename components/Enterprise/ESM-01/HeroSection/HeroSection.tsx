@@ -81,8 +81,9 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 md:pl-32 mb-16 md:mb-0">
+              <img src="/assets/images/ESM-01/mobile-headphone-screenshots.svg" alt="Screen shots" />
 
-              <h1 className="  mb-4 text-5xl text-center md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
+              <h1 className=" text-2xl  mb-4 mobile:text-5xl text-center md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
                 ESM-01 <br /> Enterprise <br /> Headphones
               </h1>
               <p className=" hidden mt-2 font-light text-4xl">
@@ -95,8 +96,8 @@ const HeroSection = () => {
                 {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                   <button className="btn btn-lg btn-primary">BUY NOW</button>
                 </div> */}
-                <div className="w-full md:w-auto py-1 md:py-0">
-                  <button className="btn btn-primary mr-5" >
+                <div className="  w-full md:w-auto mobile:py-1 md:py-0">
+                  <button className="btn btn-primary mr-2  mobile:mr-5" >
                      Buy now
                   </button>
                   <Link href="#contact">

@@ -110,8 +110,8 @@ const ValuedPartners = () => {
 
         <div className=" md:hidden flex flex-wrap gap-y-24  ">
           <div className="w-full  md:w-1/2 lg:w-1/3 px-4  mobile:w-full">
-            <div className=" relative   mobile:w-full mobile:h-80 h-full py-8 px-10 bg- rounded-md bg-white">
-              <h3 className="   mb-2   text-xl md:text-2xl leading-tight font-semibold ">
+            <div className=" relative   mobile:w-full mobile:h-80  h-full py-8 px-10 bg- rounded-md bg-white">
+              <h3 className="   mb-2   mobile:text-xl md:text-2xl leading-tight font-semibold ">
                 NVIDIA
               </h3>
               <span className="inline-block text-lg font-medium">USA</span>

@@ -6,7 +6,7 @@ const Features = () => {
     <section className="py-24 text-primary">
       <div className="container px-8 mx-auto">
         <div className="md:max-w-4xl mb-24">
-          <h2 className="mobilie:text-center sm:text-6xl  mb-4 text-5xl md:text-4xl leading-tight font-extrabold">
+          <h2 className="text-3xl  mobilie:text-center   sm:text-6xl  mb-4 mobile:text-5xl md:text-4xl leading-tight font-extrabold">
             Amplify  your productivity
           </h2>
         </div>

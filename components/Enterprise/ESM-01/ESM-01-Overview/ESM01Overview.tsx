@@ -44,7 +44,7 @@ const ESM01Overview = () => {
                   src="/assets/images/ESM-01/bullet-point-icon.svg"
                   className="mr-2"
                 />
-                <p className="font-medium text-xl">
+                <p className="mobile:font-medium mobile:text-xl">
                   Automatic notes taking resulting in time saving.
                 </p>
               </div>
@@ -55,7 +55,7 @@ const ESM01Overview = () => {
                   src="/assets/images/ESM-01/bullet-point-icon.svg"
                   className="mr-2"
                 />
-                <p className="font-medium text-xl">
+                <p className="mobile:font-medium mobile:text-xl">
                   No need of greater distance or divider between call center
                   agents.
                 </p>
@@ -67,14 +67,19 @@ const ESM01Overview = () => {
                   src="/assets/images/ESM-01/bullet-point-icon.svg"
                   className="mr-2"
                 />
-                <p className="font-medium text-xl">
+                <p className="mobile:font-medium mobile:text-xl">
                   No need for passive noise cancelling investment such as
                   soundproofing on walls and cieling.
                 </p>
               </div>
-              <div className="sm:flex sm:justify-center" >
+              <div className="hidden  md:flex justify-start  " >
               <Link href="#contact">
-                <button className=" sm:btn-wide  btn btn-primary ">GET YOURS NOW</button>
+                <button className="   btn btn-primary ">GET YOURS NOW</button>
+              </Link>
+              </div>
+              <div className="md:hidden flex justify-center  " >
+              <Link href="#contact">
+                <button className=" btn-wide   btn btn-primary ">GET YOURS NOW</button>
               </Link>
               </div>
             </div>

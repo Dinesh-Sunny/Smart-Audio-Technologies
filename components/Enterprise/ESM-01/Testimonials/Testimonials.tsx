@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <>
       <section className="relative text-primary">
-        <div className="py-20 radius-for-skewed bg-primary overflow-hidden">
+        <div className="  py-16  md:py-20 radius-for-skewed bg-primary overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 pb-6 lg:pb-16">
             <div className="flex flex-wrap justify-center lg:justify-between items-center text-center lg:text-left">
               <div className="w-full lg:w-4/5 mb-4 lg:mb-0">
@@ -22,7 +22,7 @@ const Testimonials = () => {
             />
             <div className="flex px-2 mx-auto gap-x-8 items-stretch">
               <div className="  mb-4 w-full lg:w-1/2">
-                <div className="  p-12 rounded shadow text-center bg-white ">
+                <div className=" p-4 mobile:p-12 rounded shadow text-center bg-white ">
                   <div className="bg-no-repeat bg-left-top ">
                     <p className="mb-8 leading-loose">
                       &quot;Wow, how is this even possible?&quot;
@@ -36,7 +36,7 @@ const Testimonials = () => {
                 </div>
               </div>
               <div className="mb-4 w-full lg:w-1/2">
-                <div className="p-12 rounded shadow text-center bg-white">
+                <div className="p-4  mobile:p-12 rounded shadow text-center bg-white">
                   <div className="bg-no-repeat bg-left-top ">
                     <p className="mb-8 leading-loose">
                       &quot;Top Ten Startups <br /> from CES&quot;

@@ -49,7 +49,7 @@ const Motivation = () => {
           />
           </div>
           <div className="">
-            <h3 className=" font-extrabold text-center text-4xl">With a Vision.</h3>
+            <h3 className="   mobile:font-extrabold text-center mobile:text-4xl">With a Vision.</h3>
             <p className=" text-xl text-center  ">
             We are on a mission with one vision – to change the game and create an intelligent solution, that can deliver truly noise free voice transmission for wired or wireless communication devices in any enivronment.
             </p>
