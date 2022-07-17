@@ -35,16 +35,19 @@ const HeroSection = () => {
 
           <div className=" mb-6 md:hidden flex flex-wrap xl:items-center ml-8  ">
             <div className="w-full md:w-1/3 md:mb-0 order-1 ">
-              <h1 className="  mb-6 text-5xl sf:text-xl text-center md:text-5xl lg:text-6xl leading-tight font-extrabold tracking-tight text-primary">
+              <h1 className=" text-2xl mb-6   mobile:text-5xl  text-center  leading-tight font-extrabold tracking-tight text-primary">
                 Clear Voice Without The Noise®️
               </h1>
-              <p className="text-center  mb-8 text-lg md:text-xl text-primary font-medium">
+             
+              <p className=" sf:text-tiny  text-center  mobile:mb-8  md:text-xl text-primary font-medium">
                 Powered by SmartMute® our powerful A.I. based Self Adaptive
                 Noise Elimination technology.
               </p>
-              <Link href="/enterprise/esm-01-headset">
-                <button className="btn btn-primary  ml-20 ">LEARN MORE</button>
+              <div className="flex justify-center" >
+              <Link href="/enterprise/esm-01-headset" >
+                <button className="   btn btn-primary  ">LEARN MORE</button>
               </Link>
+              </div>
             </div>
             <div className="w-full md:w-2/3">
               <img

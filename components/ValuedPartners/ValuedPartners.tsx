@@ -108,10 +108,10 @@ const ValuedPartners = () => {
  {/*the below jsx for mobile phones it will be hidden in larger displays  */}
 
 
-        <div className=" md:hidden flex flex-wrap gap-y-24">
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4  mobile:w-full">
-            <div className="relative h-full py-8 px-10 bg- rounded-md bg-white sf:w-full sf:h-20 mobile:w-full mobile:h-80">
-              <h3 className="mb-2   text-xl md:text-2xl leading-tight font-semibold ">
+        <div className=" md:hidden flex flex-wrap gap-y-24  ">
+          <div className="w-full  md:w-1/2 lg:w-1/3 px-4  mobile:w-full">
+            <div className=" relative   mobile:w-full mobile:h-80 h-full py-8 px-10 bg- rounded-md bg-white">
+              <h3 className="   mb-2   text-xl md:text-2xl leading-tight font-semibold ">
                 NVIDIA
               </h3>
               <span className="inline-block text-lg font-medium">USA</span>
@@ -133,7 +133,7 @@ const ValuedPartners = () => {
                 USA
               </span>
               <img
-                className="absolute bottom-0 left-0 py-8 px-10"
+                className="absolute  bottom-0 left-0 py-8  px-10 "
                 src="assets/images/smart-audio-technologies-qualcomm-partner.svg"
                 alt="Smart Audio Technologies NVidia Partner"
               />

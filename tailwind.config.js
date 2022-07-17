@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -10,10 +11,16 @@ module.exports = {
         Inter: ["Inter", "sans-serif"],
       },
       screens:{
+          
+          'sf':'200',
           'mobile':'340px',
-          'sf':'280'
           
       },
+      fontSize:{
+        'tiny':'.75rem',
+        'ml':'.800rem'
+        
+    },
     },
   },
   plugins: [require("daisyui")],

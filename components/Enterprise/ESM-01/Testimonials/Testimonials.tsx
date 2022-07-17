@@ -21,8 +21,8 @@ const Testimonials = () => {
               className="absolute right-60 top-20"
             />
             <div className="flex px-2 mx-auto gap-x-8 items-stretch">
-              <div className="mb-4 w-full lg:w-1/2">
-                <div className="p-12 rounded shadow text-center bg-white">
+              <div className="  mb-4 w-full lg:w-1/2">
+                <div className="  p-12 rounded shadow text-center bg-white ">
                   <div className="bg-no-repeat bg-left-top ">
                     <p className="mb-8 leading-loose">
                       &quot;Wow, how is this even possible?&quot;
