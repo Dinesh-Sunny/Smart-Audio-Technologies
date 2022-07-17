@@ -45,7 +45,7 @@ const Testimonials = () => {
                     <h4 className="mb-1 text-2xl font-bold font-heading">
                       Anna Flockett
                     </h4>
-                    <p>CES & MWC 2022</p>
+                    <p>CES 2022</p>
                   </div>
                 </div>
               </div>
