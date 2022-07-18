@@ -25,13 +25,16 @@ const Contact = () => {
                 <div className="w-full p-10">
                   <div className="mb-8 flex">
                     <LocationMarkerIcon className="h-6 w-6 mr-2" />
-                    <h3 className="font-heading font-medium text-xl">
+                    <h3 className="font-heading font-medium  mobile:text-xl">
                       20-22 Wenlock Road, London N1 7GU, United Kingdom
                     </h3>
                   </div>
                   <div className="mb-8 flex">
                     <MailIcon className="h-6 w-6 mr-2" />
-                    <h3 className=" text-sm md:text-xl font-heading font-medium ">
+                    <h3 className="  hidden sm:block   sm:text-sm  lg:text-xl font-heading font-medium ">
+                      hello@smartaudiotechnologies.com
+                    </h3>
+                    <h3 className="sm:hidden text-xs   mobile:text-sm font-heading font-medium ">
                       hello@smartaudiotechnologies.com
                     </h3>
                   </div>

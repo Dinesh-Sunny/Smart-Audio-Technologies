@@ -41,7 +41,7 @@ const CallCenter = () => {
 
 
 
-        <div className="md:hidden  flex flex-wrap -m-6">
+        <div className="md:hidden  flex flex-wrap  ">
           <div className="text-center order-last">
             <div className="lg:max-w-md pt-16 ">
               <h2 className="mb-10 font-heading font-bold text-4xl  ">

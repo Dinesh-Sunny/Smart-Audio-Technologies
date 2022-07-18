@@ -6,7 +6,7 @@ const Testimonials = () => {
     <>
       <section className="relative text-primary">
         <div className="  py-16  md:py-20 radius-for-skewed bg-primary overflow-hidden">
-          <div className="max-w-6xl mx-auto px-4 pb-6 lg:pb-16">
+          <div className="max-w-6xl mx-auto   lg:pb-16">
             <div className="flex flex-wrap justify-center lg:justify-between items-center text-center lg:text-left">
               <div className="w-full lg:w-4/5 mb-4 lg:mb-0">
                 <h2 className="text-4xl lg:text-5xl font-bold text-white">
@@ -20,32 +20,32 @@ const Testimonials = () => {
               src="/assets/images/quotes.svg"
               className="absolute right-60 top-20"
             />
-            <div className="flex px-2 mx-auto gap-x-8 items-stretch">
+            <div className="flex md:px-2 mx-auto gap-x-8 items-stretch">
               <div className="  mb-4 w-full lg:w-1/2">
-                <div className=" p-4 mobile:p-12 rounded shadow text-center bg-white ">
+                <div className=" ml-2 mobile:ml-2 md:p-12 rounded shadow text-center bg-white ">
                   <div className="bg-no-repeat bg-left-top ">
-                    <p className="mb-8 leading-loose">
+                    <p className="mb-8  pt-3 leading-loose">
                       &quot;Wow, how is this even possible?&quot;
                     </p>
 
-                    <h4 className="mb-1 text-2xl font-bold font-heading">
+                    <h4 className="mb-1  text-2xl  font-bold font-heading">
                       Visitors
                     </h4>
-                    <p>CES & MWC 2022</p>
+                    <p className="pb-3">CES & MWC 2022</p>
                   </div>
                 </div>
               </div>
-              <div className="mb-4 w-full lg:w-1/2">
-                <div className="p-4  mobile:p-12 rounded shadow text-center bg-white">
+              <div className=" mb-4 w-full lg:w-1/2">
+                <div className="mr-2 mobile:mr-2 md:p-12 rounded shadow text-center bg-white">
                   <div className="bg-no-repeat bg-left-top ">
-                    <p className="mb-8 leading-loose">
+                    <p className="mb-8 pt-3 leading-loose">
                       &quot;Top Ten Startups <br /> from CES&quot;
                     </p>
 
-                    <h4 className="mb-1 text-2xl font-bold font-heading">
+                    <h4 className="mb-1 text-xl mobile_s::text-2xl font-bold font-heading">
                       Anna Flockett
                     </h4>
-                    <p>CES 2022</p>
+                    <p className="pb-3" >CES 2022</p>
                   </div>
                 </div>
               </div>

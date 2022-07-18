@@ -57,7 +57,7 @@ const WorkFromHome = () => {
           </div>
           <div className="w-full lg:w-1/2 p-8 lg:p-16">
             <div className="lg:max-w-md pt-16">
-              <h2 className=" font-heading font-bold  text-5xl py-3 text-center mb-2 ">
+              <h2 className=" font-heading font-bold text-4xl md:text-5xl py-3 text-center mb-2 ">
                 Working from home or
                 anywhere?
                 
@@ -70,7 +70,7 @@ const WorkFromHome = () => {
               </p>
               <div className="flex justify-center" >
               <Link href="#contact">
-                <button className="btn btn-primary ">GET YOURS NOW</button>
+                <button className="btn btn-primary  ">GET YOURS NOW</button>
               </Link>
               </div>
             </div>

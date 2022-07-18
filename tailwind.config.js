@@ -11,10 +11,9 @@ module.exports = {
         Inter: ["Inter", "sans-serif"],
       },
       screens:{
-          
-          
-          'mobile':'340px',
-          'sf':'280',
+          'mobile_l':'370px',
+          'mobile_s':'300px',
+          'mobile':'360px',
           
       },
       fontSize:{

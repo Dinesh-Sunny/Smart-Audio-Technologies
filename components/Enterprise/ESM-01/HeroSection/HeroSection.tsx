@@ -81,7 +81,7 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 md:pl-32 mb-16 md:mb-0">
-              <img src="/assets/images/ESM-01/mobile-headphone-screenshots.svg" alt="Screen shots" />
+              <img className="mb-14  mobile:ml-5  " src="/assets/images/ESM-01/mobile-headphone-screenshots.svg" alt="Screen shots" />
 
               <h1 className=" text-2xl  mb-4 mobile:text-5xl text-center md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
                 ESM-01 <br /> Enterprise <br /> Headphones
@@ -89,15 +89,15 @@ const HeroSection = () => {
               <p className=" hidden mt-2 font-light text-4xl">
                for wired & wireless use
               </p>
-              <p className=" my-12 font-light text-4xl text-center">
+              <p className=" my-10 font-light text-4xl text-center">
                 Clear Voice Without <br /> The Noise®️
               </p>
               <div className="flex flex-wrap">
                 {/* <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                   <button className="btn btn-lg btn-primary">BUY NOW</button>
                 </div> */}
-                <div className="  w-full md:w-auto mobile:py-1 md:py-0">
-                  <button className="btn btn-primary mr-2  mobile:mr-5" >
+                <div className="  w-full md:w-auto mobile:py-1 ">
+                  <button className="btn btn-primary mr-2 ml-1  mobile:mr-6 mobile:ml-10" >
                      Buy now
                   </button>
                   <Link href="#contact">
