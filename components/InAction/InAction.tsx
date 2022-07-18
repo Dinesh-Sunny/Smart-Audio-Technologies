@@ -4,7 +4,7 @@ import ResponsivePlayer from "../ResponsivePlayer/ResponsivePlayer";
 
 const InAction = () => {
   return (
-    <section className=" text-primary py-24 md:py-32 bg-white overflow-hidden">
+    <section className=" text-primary pt-20  md:py-32 bg-white overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap lg:items-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">

@@ -12,8 +12,9 @@ module.exports = {
       },
       screens:{
           
-          'sf':'280',
+          
           'mobile':'340px',
+          'sf':'280',
           
       },
       fontSize:{

@@ -11,7 +11,7 @@ const LogoCloud = () => {
     {/* <p className="mb-8 text-center font-medium leading-6 text-coolGray-300">
       Trusted by the top companies in this industry
     </p> */}
-    <div className="     grid grid-cols-6  my-6  mobile:gap-3 ">
+    <div className="     grid grid-cols-3 grid-rows-2 gap-3 md:grid-cols-6 md:grid-rows-1  my-6  md:gap-3 ">
       <div className="    ">
         <img 
           

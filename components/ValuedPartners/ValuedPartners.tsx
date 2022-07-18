@@ -3,7 +3,7 @@ import React from "react";
 const ValuedPartners = () => {
   return (
     <section id="partners"
-      className="py-20  md:py-24 text-primary rightWaveFormBg bg-no-repeat bg-right"
+      className="py-20 pb-48 md:py-24 text-primary rightWaveFormBg bg-no-repeat bg-right"
       style={{ backgroundColor: "#EEEFF4" }}
     >
       <div className="pr-14 pl-14   md:w-2/3 md:pl-24">
@@ -178,7 +178,7 @@ const ValuedPartners = () => {
 
           <div className="">
             <div className=" pt-36 bg-rounded-md bg-white">
-              <h3 className="text-sm text-left  relative bottom-24 left-5 font-extrabold mobile:text-xl">
+              <h3 className="  text-left  relative bottom-24 left-5 font-extrabold mobile:text-xs md:text-xl ">
                 UK Department of International Trade
               </h3>
 

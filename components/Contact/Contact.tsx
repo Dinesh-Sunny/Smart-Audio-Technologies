@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div className="mb-8 flex">
                     <MailIcon className="h-6 w-6 mr-2" />
-                    <h3 className=" text-base-100 md:text-xl font-heading font-medium mobile:text-base-300">
+                    <h3 className=" text-sm md:text-xl font-heading font-medium ">
                       hello@smartaudiotechnologies.com
                     </h3>
                   </div>

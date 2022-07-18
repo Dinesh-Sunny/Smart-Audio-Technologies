@@ -4,6 +4,7 @@ import React from 'react'
 const Features = () => {
   return (
     <section
+    id="our-technology"
   className="py-32 md:pb-32 text-primary bg-gray-100"
 >
   <div className="container px-4 mx-auto">
