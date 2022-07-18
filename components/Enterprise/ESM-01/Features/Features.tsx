@@ -6,8 +6,13 @@ const Features = () => {
     <section className="py-24 text-primary">
       <div className="container px-8 mx-auto">
         <div className="md:max-w-4xl mb-24">
+<<<<<<< HEAD
           <h2 className="text-xl  mobilie:text-center mobile:text-4xl    mb-4  leading-tight font-extrabold">
             Amplify  your productivity
+=======
+          <h2 className="mb-4 text-5xl md:text-4xl leading-tight font-extrabold">
+            Amplify your productivity
+>>>>>>> 7144b616e1276fafcd6913eec1a23404f3e5dac4
           </h2>
         </div>
         <div className="hidden md:flex flex-wrap -mx-4 gap-y-24">
