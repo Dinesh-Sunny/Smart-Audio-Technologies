@@ -4,15 +4,15 @@ import React from 'react'
 const LogoCloud = () => {
   return (
     <section
-  className="xl:pt-24 bg-white sm:pt-8"
+  className="pt-4 xl:pt-24 bg-white "
 >
-  <div className="container md:px-48 sm:py-4 mx-auto  ">
+  <div className="container py-4 md:px-48  mx-auto  ">
     <hr />
     {/* <p className="mb-8 text-center font-medium leading-6 text-coolGray-300">
       Trusted by the top companies in this industry
     </p> */}
-    <div className="hidden md:flex md:flex-wrap md:items-center  md:my-8   ">
-      <div className="   md:w-1/3 lg:w-1/6 md:mb-8 lg:mb-0   ">
+    <div className="     grid grid-cols-6  my-6  mobile:gap-3 ">
+      <div className="    ">
         <img 
           
           className="mx-auto"
@@ -20,7 +20,7 @@ const LogoCloud = () => {
           alt="Smart Audio Technologies NVidia Partner"
         />
       </div>
-      <div className="   md:w-1/3 lg:w-1/6  lg:mb-0 ">
+      <div className="  ">
         <img
          
           className="md:mx-auto  "
@@ -28,7 +28,7 @@ const LogoCloud = () => {
           alt="Smart Audio Technologies Qualcomm Partner"
         />
       </div>
-      <div className="   w-1/2 md:w-1/3 lg:w-1/6  lg:mb-0">
+      <div className="  ">
         <img
         
           className="mx-auto  "
@@ -36,7 +36,7 @@ const LogoCloud = () => {
           alt="Smart Audio Technologies AWS Partner"
         />
       </div>
-      <div className=" w-1/2 md:w-1/3 lg:w-1/6 sm:mb-8 md:mb-0">
+      <div className=" ">
         <img
          
           className="mx-auto "
@@ -44,7 +44,7 @@ const LogoCloud = () => {
           alt="Smart Audio Technologies Scan Partner"
         />
       </div>
-      <div className="  w-1/2 md:w-1/3 lg:w-1/6 ">
+      <div className="  ">
         <img
           
           className="mx-auto "
@@ -52,7 +52,7 @@ const LogoCloud = () => {
           alt="Department of Trade as Partner"
         />
       </div>
-      <div className="  w-1/2 md:w-1/3 lg:w-1/6">
+      <div className=" ">
         <img
          
           className="mx-auto "
@@ -63,7 +63,7 @@ const LogoCloud = () => {
     </div>
 
   
-    <img className='md:hidden w-96 m-0 ' src="/assets/images/mobile-cloud-icons.svg" alt=""  />
+     
   
 
 

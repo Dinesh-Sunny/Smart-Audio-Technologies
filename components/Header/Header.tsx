@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <section className="bg-white md:px-32    mobile:px-0 ">
-      <nav className="hidden mobile:flex justify-between p-6 xl:px-36   ">
+    <section className=" md:px-32   mobile:px-0 ">
+      <nav className="hidden mobile:flex justify-between  flex-auto p-6 xl:px-36   ">
         <Link href="/">
           <a>
             <img

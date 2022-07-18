@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
-                  href="#"
+                  href="#our-technology"
                 >
                   Our Technology
                 </a>
@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
-                  href="#"
+                  href="#partners"
                 >
                   Partners
                 </a>
@@ -44,7 +44,7 @@ const Footer = () => {
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
-                  href="#"
+                  href="#team"
                 >
                   Our Team
                 </a>
@@ -52,7 +52,7 @@ const Footer = () => {
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
-                  href="#"
+                  href="#contact"
                 >
                   Contact
                 </a>

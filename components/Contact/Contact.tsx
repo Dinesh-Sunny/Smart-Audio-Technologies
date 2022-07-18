@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="flex flex-wrap -m-6">
             <div className="w-full md:w-1/2 p-6">
               <div className="md:max-w-lg mb-14">
-                <h2 className="  mobile:text-3xl sm:text-6xl     mb-7 font-heading font-bold  ">
+                <h2 className=" text-4xl sm:text-7xl     mb-7 font-heading font-bold  ">
                   Get in touch
                 </h2>
               </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div className="mb-8 flex">
                     <MailIcon className="h-6 w-6 mr-2" />
-                    <h3 className="text-tiny  font-heading font-medium mobile:text-base-300">
+                    <h3 className=" text-base-100 md:text-xl font-heading font-medium mobile:text-base-300">
                       hello@smartaudiotechnologies.com
                     </h3>
                   </div>
@@ -46,13 +46,11 @@ const Contact = () => {
                       WebkitFilter: "grayscale(100%)",
                       filter: "grayscale(100%)",
                     }}
-                    className="google_map"
+                    className="google_map "
                   >
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.0410006352195!2d-0.09590938453177159!3d51.530807816812874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b5f583930e5%3A0x5a7e590f7325e26f!2s20-22%20Wenlock%20Rd%2C%20London%20N1%207GU!5e0!3m2!1sen!2suk!4v1657538200892!5m2!1sen!2suk"
-                      width={600}
-                      height={200}
-                      style={{ border: 0 }}
+                      className="w-full"
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
                     />

@@ -8,10 +8,10 @@ const InAction = () => {
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap lg:items-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-            <h2 className="mb-8 text-4xl md:text-5xl leading-tight text-coolGray-900 font-bold tracking-tighter">
+            <h2 className=" text-2xl  mb-8 mobile:text-4xl md:text-5xl leading-tight text-coolGray-900 font-bold tracking-tighter">
               SmartMute® in Action
             </h2>
-            <p className="mb-32 text-lg md:text-xl text-coolGray-500 font-medium">
+            <p className="mb-10  md:mb-32 text-lg md:text-xl text-coolGray-500 font-medium">
               See what people are saying about our unique and effective
               technology
             </p>
@@ -34,7 +34,7 @@ const InAction = () => {
             </div>
           </div>
           <div className="  w-full md:w-1/2 px-4">
-            <div className=" relative mx-auto md:mr-0 max-w-max">
+            <div className="hidden lg:block  md:display relative mx-auto md:mr-0 max-w-max">
               <img src="/assets/images/smart-mic.svg" alt="Smart Audio Mic" />
             </div>
           </div>

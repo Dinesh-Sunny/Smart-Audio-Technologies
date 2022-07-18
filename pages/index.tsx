@@ -15,14 +15,14 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div data-theme="smartaudiotheme">
+    <div data-theme="smartaudiotheme"  >
       <Head>
         <title>Smart Audio Technologies</title>
         <meta name="description" content="Smart Audio Technologies" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
-      <HeroSection />
+       <Header />
+      <HeroSection />  
       <LogoCloud />
       <Motivation />
       <Features />

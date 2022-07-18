@@ -9,11 +9,11 @@ const Features = () => {
   <div className="container px-4 mx-auto">
     <div className="md:max-w-4xl mb-12 mx-auto text-center">
       
-      <h2 className="mb-4 text-3xl md:text-5xl leading-tight font-bold tracking-tighter">
+      <h2 className="text-2xl  mobile:mb-4 mobile:text-3xl md:text-5xl leading-tight font-bold tracking-tighter">
       SmartMute® <br /> 
 Tailor-made for you!
       </h2>
-      <p className="text-lg md:text-xl text-coolGray-500 font-medium">
+      <p className="text-sm mobile:text-lg md:text-xl text-coolGray-500 font-medium">
       We pride in welcoming prospective clients to discuss specific or bespoke projects where they would like us to deliver a turnkey solution to meet their unique requirement.
       </p>
     </div>
@@ -111,10 +111,10 @@ Tailor-made for you!
           <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center">
             <Image width="33" height="33" src="/assets/images/headset.svg" />
           </div>
-          <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
+          <h3 className=" text-xl   mobile:mb-4 mobile:text-xl md:text-2xl leading-tight font-bold">
           Headsets
           </h3>
-          <p className="text-coolGray-500 font-medium">
+          <p className=" text-coolGray-500 font-medium">
           Be it gaming, call centres, work from home or day to day operations at trading markets, warehouses, airports, factories or live events. SmartMute® technology equips you with the best clarity in communication.
           </p>
         </div>
@@ -158,11 +158,36 @@ Tailor-made for you!
           </p>
         </div>
       </div>
+
+      <div className="  w-full md:w-1/2 lg:w-1/3 px-4">
+        <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
+          <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center ">
+          <Image width="53" height="32" src="/assets/images/laptop.svg" />
+          </div>
+          <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
+          Laptops & Tablets
+          </h3>
+          <p className="text-coolGray-500 font-medium">
+          Covid19 has accelerated the WFH culture, placing teams in noisy home environments. SmartMute® technology can enable clear voice communication in such situations and provide a pleasant experience to the listener.
+          </p>
+        </div>
+      </div>
+
+      <div className="  w-full md:w-1/2 lg:w-1/3 px-4">
+        <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
+          <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center ">
+          <Image width="33" height="32" src="/assets/images/smart-devices.svg" />
+          </div>
+          <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
+          Smart Devices
+          </h3>
+          <p className="text-coolGray-500 font-medium">
+          Let Siri, Alexa dn the future of voice assist understand you clearly. SmartMute® technology can help improve this experience and enable clear voice communication even in extremely noisy environments.
+          </p>
+        </div>
+      </div>
      
-      <img  className="mx-auto pt-10"
-            src="/assets/images/mobile-navigaion-icon.svg"
-            alt="mobile navigation"
-          />
+      
       
       
     </div>
