@@ -110,9 +110,9 @@ const Header = () => {
 
     
       <div className="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50">
-        <div className="fixed top-0 left-0 bottom-0 w-4/6 max-w-xs bg-white">
+        <div className="fixed top-0 left-0 bottom-0 w-full bg-blue-900">
           <nav className="relative p-6 h-full overflow-y-auto">
-            <div className="flex flex-col justify-between h-full">
+            <div className="flex flex-col  text-center ">
               <div>
                 <a className="inline-block mb-6" href="#">
                   <img
@@ -124,7 +124,7 @@ const Header = () => {
                 <ul className="mb-6">
                   <li>
                     <a
-                      className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
+                      className="block text-black py-3 px-4 font-bold  rounded-md decoration-blue-500 underline"
                       href="#"
                     >
                       Our Technology
@@ -132,7 +132,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
+                      className="block text-black py-3 px-4 font-bold  rounded-md"
                       href="#"
                     >
                       Solutions
@@ -140,7 +140,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
+                      className="block text-black py-3 px-4 font-bold  rounded-md"
                       href="#"
                     >
                       Pricing
@@ -148,7 +148,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
+                      className="block text-black py-3 px-4 font-bold  rounded-md"
                       href="#"
                     >
                       Resources
@@ -157,10 +157,10 @@ const Header = () => {
                 </ul>
               </div>
               <a
-                className="inline-block py-2 px-4 w-full text-sm leading-5 text-green-50 bg-coolGray-500 hover:bg-coolGray-600 font-medium text-center focus:ring-2 focus:ring-coolGray-500 focus:ring-opacity-50 rounded-md"
+                className="block text-black  px-4 font-bold  rounded-md"
                 href="#contact"
               >
-                Contact Us
+                Contact
               </a>
             </div>
           </nav>

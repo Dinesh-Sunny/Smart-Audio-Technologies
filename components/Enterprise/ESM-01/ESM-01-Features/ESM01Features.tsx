@@ -17,7 +17,7 @@ const ESM01Features = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2">
-            <div className="lg:max-w-md">
+            <div className="lg:max-w-md ">
               <h2 className=" text-center md:text-left mb-10 font-heading font-bold mobile:text-2xl  md:text-2xl leading-loose">
                 Specifications
               </h2>

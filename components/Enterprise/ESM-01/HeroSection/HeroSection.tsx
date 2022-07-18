@@ -97,11 +97,11 @@ const HeroSection = () => {
                   <button className="btn btn-lg btn-primary">BUY NOW</button>
                 </div> */}
                 <div className="  w-full md:w-auto mobile:py-1 ">
-                  <button className="btn btn-primary mr-2 ml-1  mobile:mr-6 mobile:ml-10" >
+                  <button className="hidden  btn btn-primary mr-2 ml-1  mobile:mr-6 mobile:ml-10" >
                      Buy now
                   </button>
                   <Link href="#contact">
-                  <button className="btn btn-outline btn-primary  gap-1">
+                  <button className="btn btn-outline btn-primary ml-10 mobile:ml-20 gap-1">
                     CONTACT SALES
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
