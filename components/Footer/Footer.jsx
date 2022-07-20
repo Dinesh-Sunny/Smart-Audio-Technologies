@@ -16,7 +16,7 @@ const Footer = () => {
             <p className="mb-12 text-base md:text-lg text-coolGray-400 font-medium md:max-w-sm">
               Clear Voice Without The Noise®️
             </p>
-            <div className="mb-12 md:mb-0 flex flex-wrap -mx-3 md:-mx-6">
+            <div className="hidden mb-12 md:mb-0 md:flex flex-wrap -mx-3 md:-mx-6">
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
@@ -66,6 +66,71 @@ const Footer = () => {
                 </a>
               </div>
             </div>
+
+
+
+          {/* The above is desktop version and below is mobile version */}
+
+
+            <div className="md:hidden grid grid-row-3 grid-cols-3 gap-5 ">
+              <div className="">
+                <a
+                  className="font-medium text-xs"
+                  href="#our-technology"
+                >
+                  Our Technology
+                </a>
+              </div>
+              <div className="">
+                <a
+                  className="font-medium text-xs"
+                  href="#"
+                >
+                  Solutions
+                </a>
+              </div>
+              <div className="">
+                <a
+                  className="font-medium text-xs"
+                  href="#partners"
+                >
+                  Partners
+                </a>
+              </div>
+              <div className="">
+                <a
+                  className="font-medium text-xs"
+                  href="#team"
+                >
+                  Our Team
+                </a>
+              </div>
+              <div className="">
+                <a
+                  className="font-medium text-xs"
+                  href="#contact"
+                >
+                  Contact
+                </a>
+              </div>
+              <div className="">
+                <a
+                  className="font-medium text-xs"
+                  href="#"
+                >
+                  Support
+                </a>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
           </div>
           {/* <div className="w-full md:w-1/4 px-4">
             <div className="lg:pr-10 lg:ml-auto lg:max-w-max">
@@ -84,7 +149,7 @@ const Footer = () => {
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap items-center py-12">
           <div className="w-full md:w-2/3 mb-6 md:mb-0">
-            <p className="text-coolGray-400 font-medium">
+            <p className=" text-center md:text-left text-coolGray-400 font-medium">
               © 2022 | Smart Audio Technologies Limited | 20-22 Wenlock Road |
               London N1 7GU | United Kingdom
             </p>

@@ -81,7 +81,64 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 md:pl-32 mb-16 md:mb-0">
-              <img className="mb-14  mobile:ml-5  " src="/assets/images/ESM-01/mobile-headphone-screenshots.svg" alt="Screen shots" />
+              
+              
+               <div className=" carousel  " >
+                <div id="slide1"  className="carousel-item pl-3 pr-3 "  >
+                  <a href="#slide3" className="btn bg-white relative top-4 opacity-50 " >
+                    <img src="/assets/images/ESM-01/mobile-slide-left-arrow.svg" alt="slide button" />
+                  </a>
+                <div className="  pl-1 pr-1 "  >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="headset slides" />
+                  </div>
+                  <div  className="  pl-1 pr-1 " >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="headset slides" />
+                  </div>
+                  <div  className="   pl-1 pr-1 " >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="headset slides" />
+                  </div>
+                  <a href="#slide2" className="btn bg-white  relative left-1 top-4 opacity-50" >
+                  <img src="/assets/images/ESM-01/mobile-slide-right-arrow.svg" alt="slide button" />
+                  </a>
+                </div>
+                <div id="slide2"  className="carousel-item pl-3 pr-3" >
+                  <a href="#slide1" className="btn bg-white relative top-4 opacity-50 " >
+                  <img src="/assets/images/ESM-01/mobile-slide-left-arrow.svg" alt="slide button" />
+                  </a>
+                <div className="  pl-1 pr-1 "  >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="headset slides" />
+                  </div>
+                  <div  className="  pl-1 pr-1 " >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="headset slides" />
+                  </div>
+                  <div  className="   pl-1 pr-1 " >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="headset slides" />
+                  </div>
+                  <a href="#slide3" className="btn bg-white  relative left-1 top-4 opacity-50" >
+                  <img src="/assets/images/ESM-01/mobile-slide-right-arrow.svg" alt="slide button" />
+                  </a>
+                </div>
+                <div id="slide3"  className="carousel-item pl-3 pr-3 " >
+                  <a href="#slide2" className="btn bg-white relative top-4 opacity-50 " >
+                  <img src="/assets/images/ESM-01/mobile-slide-left-arrow.svg" alt="slide button" />
+                  </a>
+                <div className="  pl-1 pr-1 "  >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="headset slides" />
+                  </div>
+                  <div  className="  pl-1 pr-1 " >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="headset slides" />
+                  </div>
+                  <div  className="   pl-1 pr-1 " >
+                      <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="headset slides" />
+                  </div>
+                  <a href="#slide1" className="btn bg-white  relative left-1 top-4 opacity-50" >
+                  <img src="/assets/images/ESM-01/mobile-slide-right-arrow.svg" alt="slide button" />
+                  </a>
+                </div>
+
+                </div>
+                
+              
 
               <h1 className=" text-2xl  mb-4 mobile:text-5xl text-center md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
                 ESM-01 <br /> Enterprise <br /> Headphones
@@ -97,9 +154,7 @@ const HeroSection = () => {
                   <button className="btn btn-lg btn-primary">BUY NOW</button>
                 </div> */}
                 <div className="  w-full md:w-auto mobile:py-1 ">
-                  <button className="hidden  btn btn-primary mr-2 ml-1  mobile:mr-6 mobile:ml-10" >
-                     Buy now
-                  </button>
+                 
                   <Link href="#contact">
                   <button className="btn btn-outline btn-primary ml-10 mobile:ml-20 gap-1">
                     CONTACT SALES

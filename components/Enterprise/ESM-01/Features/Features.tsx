@@ -3,10 +3,10 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="py-24 text-primary">
+    <section className="pt-0 pb-10 sm:py-12 lg:py-24 text-primary">
       <div className="container px-8 mx-auto">
         <div className="md:max-w-4xl mb-24">
-          <h2 className="text-xl   mobilie:text-center mobile:text-4xl    mb-4  leading-tight font-extrabold">
+          <h2 className="text-xl text-center   mobile:text-4xl md:text-left   mb-4  leading-tight font-extrabold">
             Amplify  your productivity
           </h2>
         </div>
@@ -102,7 +102,7 @@ const Features = () => {
             <div className="h-full">
               <img
                 src="/assets/images/ESM-01/suitability.svg"
-                className="mb-8 ml-24  mobile:ml-32 md:ml-0  "
+                className="mb-8  ml-28  mobile:ml-36 md:ml-0  "
               />
               <h3 className=" text-xl text-center mb-4  leading-tight">
                 Suitable for any smart device or enterprise platform

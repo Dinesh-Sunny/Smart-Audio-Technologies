@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
+import Image from 'next/image'
 
 const Header = () => {
+ const [mobile_menue , setmobile_menue]=useState('hidden');
+
+ const on_menue_open = ()=>{
+   setmobile_menue('visible');
+   
+ }
+ const on_menue_close = ()=>{
+  setmobile_menue('hidden');
+ 
+}
+const on_link_click =()=>{
+  if(mobile_menue==='visible  ')
+        setmobile_menue('hidden  ');
+
+}
   return (
     <section className=" md:px-32   mobile:px-0 ">
       <nav className="hidden mobile:flex justify-between  flex-auto p-6 xl:px-36   ">
@@ -51,7 +67,7 @@ const Header = () => {
           </ul>
           {/* <button className="btn btn-primary    btn-sm">Sign In</button> */}
         </div>
-        <button className="navbar-burger mobile:relative mobile:bottom-3 xl:hidden">
+        <button className="navbar-burger mobile:relative mobile:bottom-3 xl:hidden"  onClick={on_menue_open}>
         <img
             width={60}
             height={60}
@@ -86,14 +102,16 @@ const Header = () => {
             />
           </a>
         </Link>
-    
-        <button className="navbar-burger mobile:relative mobile:bottom-3 xl:hidden">
-        <img
-            width={35}
-            height={35}
+
+   
+        <button className="navbar-burger  relative bottom-3 mobile:relative mobile:bottom-3 xl:hidden">
+        <Image
+          
+            width='35'
+            height='35'
              src='/assets/images/mobile-hamberger-menue.svg'
           >
-            </img>
+            </Image>
            
             <path
               className="text-coolGray-500"
@@ -102,16 +120,21 @@ const Header = () => {
             />
           
         </button>
+
+      
+       
       </nav>
 
 
 
 
 
-    
-      <div className="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50">
-        <div className="fixed top-0 left-0 bottom-0 w-full bg-blue-900">
-          <nav className="relative p-6 h-full overflow-y-auto">
+      <div className={mobile_menue}>
+      <div  className="navbar-menu fixed top-0 left-0 z-50 w-full h-full  ">
+         
+        <div className="fixed top-0 left-0 bottom-0 w-full bg-black   ">
+         
+          <nav className="relative p-6 h-full overflow-y-auto ">
             <div className="flex flex-col  text-center ">
               <div>
                 <a className="inline-block mb-6" href="#">
@@ -123,32 +146,32 @@ const Header = () => {
                 </a>
                 <ul className="mb-6">
                   <li>
-                    <a
-                      className="block text-black py-3 px-4 font-bold  rounded-md decoration-blue-500 underline"
-                      href="#"
+                    <a onClick={on_link_click}
+                      className="block  text-white py-3 px-4 font-bold  rounded-md"
+                      href="#our-technology"
                     >
                       Our Technology
                     </a>
                   </li>
                   <li>
-                    <a
-                      className="block text-black py-3 px-4 font-bold  rounded-md"
+                    <a  onClick={on_link_click}
+                      className="block   text-white py-3 px-4 font-bold  rounded-md"
                       href="#"
                     >
                       Solutions
                     </a>
                   </li>
                   <li>
-                    <a
-                      className="block text-black py-3 px-4 font-bold  rounded-md"
-                      href="#"
+                    <a   onClick={on_link_click}
+                      className="block   text-white py-3 px-4 font-bold  rounded-md"
+                      href="#contact"
                     >
                       Pricing
                     </a>
                   </li>
                   <li>
-                    <a
-                      className="block text-black py-3 px-4 font-bold  rounded-md"
+                    <a   onClick={on_link_click}
+                      className="block  text-white py-3 px-4 font-bold  rounded-md"
                       href="#"
                     >
                       Resources
@@ -156,18 +179,19 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <a
-                className="block text-black  px-4 font-bold  rounded-md"
+              <a   onClick={on_link_click}
+                className="block  text-white  px-4 font-bold  rounded-md"
                 href="#contact"
               >
                 Contact
               </a>
             </div>
           </nav>
-          <a className="navbar-close absolute top-5 p-4 right-3" href="#">
+          <button  onClick={on_menue_close}>
+          <a className="navbar-close absolute top-5 p-4 right-7" href="#">
             <svg
-              width={12}
-              height={12}
+              width={15}
+              height={15}
               viewBox="0 0 12 12"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +202,11 @@ const Header = () => {
               />
             </svg>
           </a>
+
+          </button>
+         
         </div>
+      </div>
       </div>
     </section>
   );

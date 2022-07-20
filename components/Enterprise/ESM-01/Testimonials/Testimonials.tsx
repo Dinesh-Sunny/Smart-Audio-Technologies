@@ -15,10 +15,10 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div className="hidden  md:flex ">
             <img
               src="/assets/images/quotes.svg"
-              className="absolute right-60 top-20"
+              className="absolute  right-14 top-5 lg:right-60 lg:top-20  "
             />
             <div className="flex md:px-2 mx-auto gap-x-8 items-stretch">
               <div className="  mb-4 w-full lg:w-1/2">
@@ -51,6 +51,83 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
+
+
+
+
+
+
+
+
+
+
+  {/* above is the desktop view and below is the mobile view */}
+
+
+
+
+
+
+
+
+
+          <div className="md:hidden flex flex-col ">
+            <img
+              src="/assets/images/quotes.svg"
+              className="absolute right-10 top-5"
+            />
+            <div className="flex px-2 pt-10 mx-auto gap-x-8  flex-col items-stretch">
+              <div className="  mb-4 w-full ">
+                <div className=" p-10 rounded shadow text-center bg-white ">
+                  <div className="bg-no-repeat bg-left-top ">
+                    <p className="mb-8  pt-3 leading-loose">
+                      &quot;Wow, how is this even possible?&quot;
+                    </p>
+
+                    <h4 className="mb-1  text-2xl  font-bold font-heading">
+                      Visitors
+                    </h4>
+                    <p className="pb-3">CES & MWC 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div className=" mb-4 w-full ">
+                <div className="  p-10 rounded shadow text-center bg-white">
+                  <div className="bg-no-repeat bg-left-top ">
+                    <p className="mb-8 pt-3 leading-loose">
+                      &quot;Top Ten Startups <br /> from CES&quot;
+                    </p>
+
+                    <h4 className="mb-1 text-xl mobile_s:text-2xl font-bold font-heading">
+                      Anna Flockett
+                    </h4>
+                    <p className="pb-3" >CES 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </section>
 
