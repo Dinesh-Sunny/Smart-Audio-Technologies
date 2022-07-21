@@ -185,7 +185,7 @@ const on_link_click =()=>{
                 </ul>
               </div>
               <a   onClick={on_link_click}
-                className="block  text-white  px-4 font-bold  rounded-md"
+                className="block  text-white  px-3 font-bold  rounded-md"
                 href="/#contact"
               >
                 Contact
