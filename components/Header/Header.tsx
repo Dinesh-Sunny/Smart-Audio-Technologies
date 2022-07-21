@@ -14,8 +14,8 @@ const Header = () => {
  
 }
 const on_link_click =()=>{
-  if(mobile_menue==='visible  ')
-        setmobile_menue('hidden  ');
+  if(mobile_menue==='visible')
+        setmobile_menue('hidden');
 
 }
   return (
@@ -33,24 +33,24 @@ const on_link_click =()=>{
         <div className="hidden xl:flex items-center">
           <ul className="flex mr-12">
             <li className="mr-8">
-              <a className="text-primary font-medium" href="#our-technology">
+              <a className="text-primary font-medium" href="/#our-technology">
                 Our Technology
               </a>
             </li>
             <li className="mr-8">
-              <Link href="#solutions" >
-              <a className="text-primary font-medium" href="#">
+             
+              <a className="text-primary font-medium" href="/#solutions">
                 Solutions
               </a>
-              </Link>
+           
             </li>
             <li className="mr-8">
-              <a className="text-primary font-medium" href="#partners">
+              <a className="text-primary font-medium" href="/#partners">
                 Partners
               </a>
             </li>
             <li className="mr-8">
-              <a className="text-primary font-medium" href="#team">
+              <a className="text-primary font-medium" href="/#team">
                 Our Team
               </a>
             </li>
@@ -60,7 +60,7 @@ const on_link_click =()=>{
               </Link>
             </li>
             <li>
-              <a className="text-primary font-medium" href="#contact">
+              <a className="text-primary font-medium" href="/#contact">
                 Contact
               </a>
             </li>
@@ -148,7 +148,7 @@ const on_link_click =()=>{
                   <li>
                     <a onClick={on_link_click}
                       className="block  text-white py-3 px-4 font-bold  rounded-md"
-                      href="#our-technology"
+                      href="/#our-technology"
                     >
                       Our Technology
                     </a>
@@ -156,7 +156,7 @@ const on_link_click =()=>{
                   <li>
                     <a  onClick={on_link_click}
                       className="block   text-white py-3 px-4 font-bold  rounded-md"
-                      href="#"
+                      href="/#solutions"
                     >
                       Solutions
                     </a>
@@ -164,24 +164,29 @@ const on_link_click =()=>{
                   <li>
                     <a   onClick={on_link_click}
                       className="block   text-white py-3 px-4 font-bold  rounded-md"
-                      href="#contact"
+                      href="/#partners"
                     >
-                      Pricing
+                       Partners
                     </a>
                   </li>
                   <li>
                     <a   onClick={on_link_click}
                       className="block  text-white py-3 px-4 font-bold  rounded-md"
-                      href="#"
+                      href="/#team"
                     >
-                      Resources
+                      Our Team
                     </a>
+                  </li>
+                  <li>
+                  <Link href="/enterprise/esm-01-headset">
+                   <a onClick={on_link_click} className=" block  text-white py-3 px-4 font-bold  rounded-md">Products</a>
+                   </Link>
                   </li>
                 </ul>
               </div>
               <a   onClick={on_link_click}
                 className="block  text-white  px-4 font-bold  rounded-md"
-                href="#contact"
+                href="/#contact"
               >
                 Contact
               </a>
