@@ -33,26 +33,35 @@ const on_link_click =()=>{
         <div className="hidden xl:flex items-center">
           <ul className="flex mr-12">
             <li className="mr-8">
-              <a className="text-primary font-medium" href="/#our-technology">
+              <Link href="/#our-technology" >
+              <a className="text-primary font-medium" >
                 Our Technology
               </a>
+              </Link>
             </li>
             <li className="mr-8">
-             
-              <a className="text-primary font-medium" href="/#solutions">
+             <Link href="/#solutions" >
+             <a className="text-primary font-medium">
                 Solutions
               </a>
+             </Link>
            
             </li>
             <li className="mr-8">
-              <a className="text-primary font-medium" href="/#partners">
+              <Link href="/#partners">
+              <a className="text-primary font-medium">
                 Partners
               </a>
+
+              </Link>
+             
             </li>
             <li className="mr-8">
-              <a className="text-primary font-medium" href="/#team">
+              <Link href="/#team">
+              <a className="text-primary font-medium" >
                 Our Team
               </a>
+              </Link>
             </li>
             <li className="mr-8">
               <Link href="/enterprise/esm-01-headset">
@@ -60,9 +69,11 @@ const on_link_click =()=>{
               </Link>
             </li>
             <li>
-              <a className="text-primary font-medium" href="/#contact">
+              <Link href="/#contact" >
+              <a className="text-primary font-medium" >
                 Contact
               </a>
+              </Link>
             </li>
           </ul>
           {/* <button className="btn btn-primary    btn-sm">Sign In</button> */}
@@ -146,36 +157,45 @@ const on_link_click =()=>{
                 </a>
                 <ul className="mb-6">
                   <li>
+                    <Link href="/#our-technology">
                     <a onClick={on_link_click}
                       className="block  text-white py-3 px-4 font-bold  rounded-md"
-                      href="/#our-technology"
+                      
                     >
                       Our Technology
                     </a>
+                    </Link>
                   </li>
                   <li>
+                    <Link href="/#solutions">
                     <a  onClick={on_link_click}
                       className="block   text-white py-3 px-4 font-bold  rounded-md"
-                      href="/#solutions"
+                     
                     >
                       Solutions
                     </a>
+                    </Link>
                   </li>
                   <li>
+                    <Link href="/#partners">
                     <a   onClick={on_link_click}
                       className="block   text-white py-3 px-4 font-bold  rounded-md"
-                      href="/#partners"
+                    
                     >
                        Partners
                     </a>
+                    </Link>
                   </li>
                   <li>
+                    <Link href="/#team" >
                     <a   onClick={on_link_click}
                       className="block  text-white py-3 px-4 font-bold  rounded-md"
-                      href="/#team"
+                      
                     >
                       Our Team
                     </a>
+                    </Link>
+                  
                   </li>
                   <li>
                   <Link href="/enterprise/esm-01-headset">
@@ -184,12 +204,14 @@ const on_link_click =()=>{
                   </li>
                 </ul>
               </div>
+              <Link href="/#contact" >
               <a   onClick={on_link_click}
                 className="block  text-white  px-3 font-bold  rounded-md"
-                href="/#contact"
+               
               >
                 Contact
               </a>
+              </Link>
             </div>
           </nav>
           <button  onClick={on_menue_close}>
