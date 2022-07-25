@@ -93,7 +93,7 @@ Tailor-made for you!
           Smart Devices
           </h3>
           <p className="text-coolGray-500 font-medium">
-          Let Siri, Alexa dn the future of voice assist understand you clearly. SmartMute® technology can help improve this experience and enable clear voice communication even in extremely noisy environments.
+          Let Siri, Alexa  the future of voice assist understand you clearly. SmartMute® technology can help improve this experience and enable clear voice communication even in extremely noisy environments.
           </p>
         </div>
       </div>
@@ -183,7 +183,7 @@ Tailor-made for you!
           Smart Devices
           </h3>
           <p className="text-coolGray-500 font-medium">
-          Let Siri, Alexa dn the future of voice assist understand you clearly. SmartMute® technology can help improve this experience and enable clear voice communication even in extremely noisy environments.
+          Let Siri, Alexa  the future of voice assist understand you clearly. SmartMute® technology can help improve this experience and enable clear voice communication even in extremely noisy environments.
           </p>
         </div>
       </div>

@@ -82,68 +82,43 @@ const HeroSection = () => {
             </div>
             <div className="w-full md:w-1/2 md:pl-32 mb-16 md:mb-0">
               
-              
-               <div className=" carousel  " >
-                <div id="slide1"  className="carousel-item pl-3 pr-3 "  >
-                  <a href="#slide3" className="btn bg-white relative top-4 opacity-50 " >
-                    <img src="/assets/images/ESM-01/mobile-slide-left-arrow.svg" alt="slide button" />
-                  </a>
-                <div className="  pl-1 pr-1 "  >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="headset slides" />
-                  </div>
-                  <div  className="  pl-1 pr-1 " >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="headset slides" />
-                  </div>
-                  <div  className="   pl-1 pr-1 " >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="headset slides" />
-                  </div>
-                  <a href="#slide2" className="btn bg-white  relative left-1 top-4 opacity-50" >
-                  <img src="/assets/images/ESM-01/mobile-slide-right-arrow.svg" alt="slide button" />
-                  </a>
-                </div>
-                <div id="slide2"  className="carousel-item pl-3 pr-3" >
-                  <a href="#slide1" className="btn bg-white relative top-4 opacity-50 " >
-                  <img src="/assets/images/ESM-01/mobile-slide-left-arrow.svg" alt="slide button" />
-                  </a>
-                <div className="  pl-1 pr-1 "  >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="headset slides" />
-                  </div>
-                  <div  className="  pl-1 pr-1 " >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="headset slides" />
-                  </div>
-                  <div  className="   pl-1 pr-1 " >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="headset slides" />
-                  </div>
-                  <a href="#slide3" className="btn bg-white  relative left-1 top-4 opacity-50" >
-                  <img src="/assets/images/ESM-01/mobile-slide-right-arrow.svg" alt="slide button" />
-                  </a>
-                </div>
-                <div id="slide3"  className="carousel-item pl-3 pr-3 " >
-                  <a href="#slide2" className="btn bg-white relative top-4 opacity-50 " >
-                  <img src="/assets/images/ESM-01/mobile-slide-left-arrow.svg" alt="slide button" />
-                  </a>
-                <div className="  pl-1 pr-1 "  >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="headset slides" />
-                  </div>
-                  <div  className="  pl-1 pr-1 " >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="headset slides" />
-                  </div>
-                  <div  className="   pl-1 pr-1 " >
-                      <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="headset slides" />
-                  </div>
-                  <a href="#slide1" className="btn bg-white  relative left-1 top-4 opacity-50" >
-                  <img src="/assets/images/ESM-01/mobile-slide-right-arrow.svg" alt="slide button" />
-                  </a>
+
+             
+           
+             <div>
+             <div className="flex gap-80 relative top-28 left-4 " >
+             <img src="/assets/images/ESM-01/mobile-slide-left-arrow.svg" alt="left arrow indecator" 
+                className="" />
+                     <img src="/assets/images/ESM-01/mobile-slide-right-arrow.svg" alt="left arrow indecator" 
+                className=" " />
+             </div>
+
+             <div className="  flex overflow-x-auto gap-5 m-16 " >
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-1.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-2.svg" alt="these are headphone pictures" />
+                     <img src="/assets/images/ESM-01/mobile-slide-headset-3.svg" alt="these are headphone pictures" />
                 </div>
 
-                </div>
+             </div>
+              
+             
+
+              
+              
+             
                 
               
 
               <h1 className=" text-2xl  mb-4 mobile:text-5xl text-center md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
                 ESM-01 <br /> Enterprise <br /> Headphones
               </h1>
-              <p className=" hidden mt-2 font-light text-4xl">
+              <p className=" text-center mt-2 font-light text-xl">
                for wired & wireless use
               </p>
               <p className=" my-10 font-light text-4xl text-center">
