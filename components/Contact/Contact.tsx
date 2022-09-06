@@ -5,17 +5,17 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  let handleEmailChange = (e) => {
-    let inputValue = e.target.value;
+  let handleEmailChange = (e :React.FormEvent<HTMLInputElement>) => {
+    let inputValue = e.currentTarget.value;
     setEmail(inputValue);
   }
 
-  let handleMessageChange = (e) => {
-    let inputValue = e.target.value;
+  let handleMessageChange = (e:React.FormEvent<HTMLTextAreaElement>) => {
+    let inputValue = e.currentTarget.value;
     setMessage(inputValue);
   }
   
-  const sendEmail = async (e) => {
+  const sendEmail = async (e :React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const results = await fetch("/api/email", {
       method: "POST",
