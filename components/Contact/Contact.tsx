@@ -1,16 +1,37 @@
-import React from "react";
-import {
-  LocationMarkerIcon,
-  MailIcon,
-  PhoneIcon,
-} from "@heroicons/react/solid";
+import { useState } from 'react'
+import { LocationMarkerIcon, MailIcon, PhoneIcon } from '@heroicons/react/solid'
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  let handleEmailChange = (e) => {
+    let inputValue = e.target.value;
+    setEmail(inputValue);
+  }
+
+  let handleMessageChange = (e) => {
+    let inputValue = e.target.value;
+    setMessage(inputValue);
+  }
+  
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    const results = await fetch("/api/email", {
+      method: "POST",
+      body: JSON.stringify({email: email, message: message})
+    });
+    if (results.status == 200) {
+      console.log("success")
+  }else{
+    console.log("error");
+  }
   return (
     <>
-      <section id="contact"
+      <section
+        id="contact"
         className="relative py-36 overflow-hidden text-primary"
-        style={{ backgroundColor: "#EEEFF4" }}
+        style={{ backgroundColor: '#EEEFF4' }}
       >
         <img className="absolute left-0 bottom-0" src="" alt="" />
         <div className="relative z-10 container mx-auto px-4">
@@ -46,8 +67,8 @@ const Contact = () => {
                   </div>
                   <div
                     style={{
-                      WebkitFilter: "grayscale(100%)",
-                      filter: "grayscale(100%)",
+                      WebkitFilter: 'grayscale(100%)',
+                      filter: 'grayscale(100%)',
                     }}
                     className="google_map "
                   >
@@ -63,6 +84,7 @@ const Contact = () => {
             </div>
             <div className="w-full md:w-1/2 p-6">
               <div className="p-8 max-w-lg mx-auto bg-primary rounded-10">
+                <form onSubmit={sendEmail} method="post">
                 <div className="flex flex-wrap max-w-xl mx-auto">
                   <div className="w-full mb-5">
                     <input
@@ -74,21 +96,28 @@ const Contact = () => {
                   <div className="w-full mb-5">
                     <input
                       className="w-full px-5 py-4 text-gray-400 text-base bg-transparent border border-gray-700 outline-none focus:ring-4 focus:ring-white placeholder-gray-400 rounded"
-                      type="text"
+                      type="email"
+                      name='email'
+                      value={email}
+                      onChange={handleEmailChange}
                       placeholder="Your email address"
                     />
                   </div>
                   <div className="w-full mb-5">
                     <textarea
                       className="w-full h-40 px-5 py-4 text-gray-400 text-base bg-transparent border border-gray-700 outline-none focus:ring-4 focus:ring-white placeholder-gray-400 resize-none rounded"
+                      name='message'
+                      onChange={handleMessageChange}
+                      value={message}
                       placeholder="Write message"
-                      defaultValue={""}
+                      defaultValue={''}
                     />
                   </div>
                   <div className="w-full mb-5">
                     <div className="group relative">
                       <div className="absolute top-0 left-0 w-full h-full bg-gradient-cyan2 opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300" />
-                      <button className="p-1 w-full font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
+                      <button className="p-1 w-full font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md"
+                      type='submit'>
                         <div className="relative p-5 px-11 text-primary bg-white overflow-hidden rounded-md">
                           <div className="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500" />
                           <p className="relative z-10">Send message</p>
@@ -103,13 +132,14 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </section>
     </>
-  );
-};
-
-export default Contact;
+  )
+}
+}
+export default Contact
