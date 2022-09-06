@@ -15,6 +15,6 @@ export default async (req, res) => {
         text: message,
         html: message.replace(/\r\n/g, '<br>')
     }
-    mail.send(data);
+    await mail.send(data);
     res.status(200).json({status: 'OK'});
 }
