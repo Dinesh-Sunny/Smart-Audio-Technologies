@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "@sendgrid/mail": "^7.7.0",
     "@types/sparkpost": "^2.1.5",
     "daisyui": "^2.17.0",
     "next": "12.2.0",

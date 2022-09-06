@@ -3,30 +3,19 @@ import { useState } from 'react'
 import { LocationMarkerIcon, MailIcon, PhoneIcon } from '@heroicons/react/solid'
 
 const Contact = () => {
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  let handleEmailChange = (e :React.FormEvent<HTMLInputElement>) => {
-    let inputValue = e.currentTarget.value;
-    setEmail(inputValue);
-  }
-
-  let handleMessageChange = (e:React.FormEvent<HTMLTextAreaElement>) => {
-    let inputValue = e.currentTarget.value;
-    setMessage(inputValue);
-  }
-  
-  const sendEmail = async (e :React.FormEvent<HTMLFormElement>) => {
+ 
+  const sendEmail = async (e) => {
     e.preventDefault();
-    const results = await fetch("/api/email", {
-      method: "POST",
-      body: JSON.stringify({email: email, message: message})
-    });
-  if (results.status == 200) {
-      console.log("success")
-  }else{
-    console.log("error");
-  }}
+    const formData = {};
+    Array.from(e.currentTarget.elements).forEach(field => {
+      formData[field.name] = field.value;
+    })
+    
+    fetch('/api/mail', {
+      method: "post",
+      body: JSON.stringify(formData)
+    })
+}
   return (
     <>
       <section
@@ -91,7 +80,9 @@ const Contact = () => {
                     <input
                       className="w-full px-5 py-4 text-gray-400 text-base bg-transparent border border-gray-700 outline-none focus:ring-4 focus:ring-white placeholder-gray-400 rounded"
                       type="text"
+                      name="name"
                       placeholder="Your full name"
+                      required
                     />
                   </div>
                   <div className="w-full mb-5">
@@ -99,19 +90,19 @@ const Contact = () => {
                       className="w-full px-5 py-4 text-gray-400 text-base bg-transparent border border-gray-700 outline-none focus:ring-4 focus:ring-white placeholder-gray-400 rounded"
                       type="email"
                       name='email'
-                      value={email}
-                      onChange={handleEmailChange}
+                      
                       placeholder="Your email address"
+                      required
                     />
                   </div>
                   <div className="w-full mb-5">
                     <textarea
                       className="w-full h-40 px-5 py-4 text-gray-400 text-base bg-transparent border border-gray-700 outline-none focus:ring-4 focus:ring-white placeholder-gray-400 resize-none rounded"
                       name='message'
-                      onChange={handleMessageChange}
-                      value={message}
+                      
                       placeholder="Write message"
                       defaultValue={''}
+                      required
                     />
                   </div>
                   <div className="w-full mb-5">
