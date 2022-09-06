@@ -5,15 +5,15 @@ const Footer = () => {
     <section className="bg-primary overflow-hidden text-white">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap lg:items-center pt-12 pb-12 -mx-4">
-          <div className="w-full md:w-3/4 px-4 sm:text-center ">
+          <div className="w-full px-4 sm:text-center ">
             <a className="block mb-8 max-w-max " href="#">
               <img
                 className="h-8"
                 src="/assets/images/smart-audio-logo-white.svg"
-                alt=""
+                alt="Smart Audio Technologies Logo"
               />
             </a>
-            <p className="mb-12 text-base md:text-lg text-coolGray-400 font-medium md:max-w-sm">
+            <p className="mb-12 text-base md:text-lg text-coolGray-400 font-medium text-left	">
               Clear Voice Without The Noise®️
             </p>
             <div className="hidden mb-12 md:mb-0 md:flex flex-wrap -mx-3 md:-mx-6">
@@ -52,17 +52,34 @@ const Footer = () => {
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
-                  href="#contact"
+                  href="enterprise/esm-01-headset"
                 >
-                  Contact
+                  Products
                 </a>
               </div>
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
-                  href="#"
+                  href="#contact"
                 >
-                  Support
+                  Contact
+                </a>
+              </div>
+              
+              <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
+                <a
+                  className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
+                  href="https://www.iubenda.com/terms-and-conditions/88136826"
+                  target="_blank" rel=" noreferrer">
+                  Terms & Conditions
+                </a>
+              </div>
+              <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
+                <a
+                  className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
+                  href="https://www.iubenda.com/privacy-policy/88136826"
+                  target="_blank" rel=" noreferrer">
+                  Privacy and Cookie Policy
                 </a>
               </div>
             </div>
@@ -108,19 +125,20 @@ const Footer = () => {
               <div className="">
                 <a
                   className="font-medium text-xs"
-                  href="#contact"
+                  href="enterprise/esm-01-headset"
                 >
-                  Contact
+                  Products
                 </a>
               </div>
               <div className="">
                 <a
                   className="font-medium text-xs"
-                  href="#"
+                  href="#contact"
                 >
-                  Support
+                  Contact
                 </a>
               </div>
+              
             </div>
 
 

@@ -119,8 +119,9 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <p className="max-w-xs mx-auto text-sm text-center text-white">
-                      By clicking the send button, you agree with our Terms
-                      &amp; Conditions
+                      By clicking the send button, you agree with our <a href="https://www.iubenda.com/terms-and-conditions/88136826"
+                  target="_blank" rel=" noreferrer" className="underline">Terms
+                      &amp; Conditions</a>
                     </p>
                   </div>
                 </div>
