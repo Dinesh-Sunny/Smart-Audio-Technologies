@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react'
 import { LocationMarkerIcon, MailIcon, PhoneIcon } from '@heroicons/react/solid'
 
@@ -21,11 +22,11 @@ const Contact = () => {
       method: "POST",
       body: JSON.stringify({email: email, message: message})
     });
-    if (results.status == 200) {
+  if (results.status == 200) {
       console.log("success")
   }else{
     console.log("error");
-  }
+  }}
   return (
     <>
       <section
@@ -141,5 +142,5 @@ const Contact = () => {
     </>
   )
 }
-}
+
 export default Contact
