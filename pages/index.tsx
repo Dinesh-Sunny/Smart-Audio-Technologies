@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Smart Audio Technologies" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-       <Header />
+      <Header />
       <HeroSection />  
       <LogoCloud />
       <Motivation />

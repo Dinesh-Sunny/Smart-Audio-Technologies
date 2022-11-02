@@ -1,4 +1,5 @@
 import { PhoneIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 import React from "react";
 
 const ESM01Features = () => {
@@ -62,7 +63,7 @@ const ESM01Features = () => {
                 </div>
                 <div className="w-full lg:w-1/2">
                   <div className="mb-4">
-                    <p className="text-tiny md:text-xl font-bold mb-2">Frequency range</p>
+                    <p className="font-bold mb-2">Frequency range</p>
                     <p className="text-sm font-light mb-2">20Hz - 20kHz</p>
                     <hr />
                   </div>
@@ -92,11 +93,29 @@ const ESM01Features = () => {
                     <hr />
                   </div>
                   <div className="mb-4">
-                    <p className="text-tiny md:text-xl font-bold mb-2">Charge requirment</p>
+                    <p className="font-bold mb-2">Charge requirement</p>
                     <p className="text-sm font-light mb-2"> &#62; 0.5c</p>
                   </div>
                 </div>
+                
               </div>
+              <Link href="/assets/files/Smart_Audio_ESM_01_Quick_Start_Booklet.pdf">
+          <button className="btn text-slate-500 hover:bg-grey-700 gap-2">
+            Download ESM-01 Quick Start Booklet 
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+        </Link>
             </div>
           </div>
         </div>
