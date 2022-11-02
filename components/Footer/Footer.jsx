@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -58,12 +59,12 @@ const Footer = () => {
                 </a>
               </div>
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
-                <a
+                <Link
                   className="inline-block text-coolGray-500 hover:text-coolGray-600 font-medium"
                   href="/support"
                 >
                   Support
-                </a>
+                </Link>
               </div>
               
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6">
