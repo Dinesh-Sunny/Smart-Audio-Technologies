@@ -37,7 +37,7 @@ const Support = () => {
                       We’ve got your back!
                     </h2>
                     <p className="text-gray-600 text-lg">
-                      <a href="https://www.scan.co.uk/business" target="_blank">
+                      <a href="https://www.scan.co.uk/business" target="_blank" rel="noreferrer">
                         SCAN UK
                       </a>{' '}
                       are our trusted partners for Order Fulfillment and
